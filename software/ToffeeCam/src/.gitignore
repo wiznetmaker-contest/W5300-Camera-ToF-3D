@@ -1,0 +1,13 @@
+Debug/
+Release/
+build/
+dist/
+debug/
+cmake-build*/
+.generated_files/
+private/
+*.bak
+*.old
+*.hex
+*.log
+*.log.inx
