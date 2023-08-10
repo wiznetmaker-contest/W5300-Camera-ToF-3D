@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADIN1100BCPZ
+D Ethernet ICs 10BASE-T1L PHY with 4 MDI
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adin1100.pdf
+$ENDCMP
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W5300
+D TCP/IP Ethernet Controller,MII & PHY WIZnet Inc W5300, Ethernet Controller, 10 Mbps, 100 Mbps, 3.3 V, 100-Pin LQFP
+K
+F http://www.wiznet.io/wp-content/uploads/wiznethome/Chip/W5100/Document/W5300_DS_V132E.pdf
+$ENDCMP
+#
+#End Doc Library

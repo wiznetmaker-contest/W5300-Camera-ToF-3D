@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS26400RHFR
+D 42-V, 2-A industrial eFuse with integrated reverse input polarity protection
+K
+F https://www.tij.co.jp/jp/lit/ds/symlink/tps2640.pdf?ts=1608703554866&ref_url=https%253A%252F%252Fwww.tij.co.jp%252Fproduct%252Fjp%252FTPS2640
+$ENDCMP
+#
+#End Doc Library
