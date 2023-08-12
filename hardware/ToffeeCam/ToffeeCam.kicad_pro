@@ -581,6 +581,10 @@
     [
       "dfebb9e7-f4dc-4157-b497-79c4ff80d651",
       "MCU"
+    ],
+    [
+      "a4e0120d-0f56-4e2f-917d-0e47b1424a64",
+      "Panel"
     ]
   ],
   "text_variables": {}

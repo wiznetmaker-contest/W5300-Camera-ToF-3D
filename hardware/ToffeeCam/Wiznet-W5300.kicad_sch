@@ -2563,11 +2563,17 @@
   (junction (at 205.74 228.6) (diameter 0) (color 0 0 0 0)
     (uuid 05b7c5ed-e6c5-4b50-aaba-a46402d75a38)
   )
+  (junction (at 149.86 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid 073daff9-fcc2-4347-8fc0-de8b05d899e4)
+  )
   (junction (at 85.09 279.4) (diameter 0) (color 0 0 0 0)
     (uuid 0be6d6db-bdea-4f48-b2c0-24e9beca5b99)
   )
   (junction (at 140.97 151.13) (diameter 0) (color 0 0 0 0)
     (uuid 154a86a9-02fe-4e3f-978a-d73a3a02dc2e)
+  )
+  (junction (at 175.26 104.14) (diameter 0) (color 0 0 0 0)
+    (uuid 1661e085-5e23-44c8-a7c4-82283e9763c2)
   )
   (junction (at 140.97 177.8) (diameter 0) (color 0 0 0 0)
     (uuid 1d0bff6f-7aa5-4343-b1b3-3e3b0c4f6faa)
@@ -2617,14 +2623,17 @@
   (junction (at 140.97 172.72) (diameter 0) (color 0 0 0 0)
     (uuid 7501d860-d933-438f-9288-e005e7ea3d4e)
   )
-  (junction (at 201.93 87.63) (diameter 0) (color 0 0 0 0)
+  (junction (at 242.57 73.66) (diameter 0) (color 0 0 0 0)
     (uuid 756c6f0e-f73c-4c08-9ff9-e3305f477a26)
   )
-  (junction (at 194.31 87.63) (diameter 0) (color 0 0 0 0)
+  (junction (at 234.95 73.66) (diameter 0) (color 0 0 0 0)
     (uuid 76edfa4a-fc65-490a-bb8c-0cd96cbd2f3f)
   )
   (junction (at 176.53 152.4) (diameter 0) (color 0 0 0 0)
     (uuid 840a2221-806e-484b-b374-dcd037cbd2b0)
+  )
+  (junction (at 149.86 104.14) (diameter 0) (color 0 0 0 0)
+    (uuid 85f452c7-5cb8-42ac-955e-7952be73141b)
   )
   (junction (at 128.27 209.55) (diameter 0) (color 0 0 0 0)
     (uuid 98b0ca3a-9821-4663-ae0f-71410a1c44ad)
@@ -2632,7 +2641,7 @@
   (junction (at 138.43 198.12) (diameter 0) (color 0 0 0 0)
     (uuid 9ad6fb4d-f6eb-4d01-bf37-74b4f1e2dcfe)
   )
-  (junction (at 104.14 43.18) (diameter 0) (color 0 0 0 0)
+  (junction (at 104.14 29.21) (diameter 0) (color 0 0 0 0)
     (uuid 9b02807c-442e-4c68-af38-dc47124038e2)
   )
   (junction (at 113.03 209.55) (diameter 0) (color 0 0 0 0)
@@ -2650,11 +2659,11 @@
   (junction (at 140.97 165.1) (diameter 0) (color 0 0 0 0)
     (uuid ca582dcd-2bd1-434d-9b9b-53d397fc153b)
   )
-  (junction (at 152.4 109.22) (diameter 0) (color 0 0 0 0)
-    (uuid cdbaa747-a4d0-42e4-94a7-c34ef20be93f)
-  )
   (junction (at 180.34 95.25) (diameter 0) (color 0 0 0 0)
     (uuid cff1e93f-b97c-4a49-bef5-eeb9d40e91cb)
+  )
+  (junction (at 175.26 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid d07570ab-10f3-48fc-a81e-cb6cd76afd80)
   )
   (junction (at 85.09 254) (diameter 0) (color 0 0 0 0)
     (uuid d26d3315-c9c3-48bd-8f7e-9458256a2ad0)
@@ -2662,20 +2671,11 @@
   (junction (at 162.56 109.22) (diameter 0) (color 0 0 0 0)
     (uuid d5a38d48-71b4-4715-aca7-8d63b52bc856)
   )
-  (junction (at 172.72 104.14) (diameter 0) (color 0 0 0 0)
-    (uuid d9338f29-c625-4235-9e46-a18d8002414c)
-  )
   (junction (at 205.74 248.92) (diameter 0) (color 0 0 0 0)
     (uuid e1a10192-2445-45f9-981a-91f291a16d90)
   )
-  (junction (at 172.72 109.22) (diameter 0) (color 0 0 0 0)
-    (uuid e89b9dc4-b259-44a7-90c7-b29405e1cb51)
-  )
-  (junction (at 194.31 100.33) (diameter 0) (color 0 0 0 0)
+  (junction (at 234.95 86.36) (diameter 0) (color 0 0 0 0)
     (uuid ee29633f-14e2-4994-8347-597cf61cad86)
-  )
-  (junction (at 152.4 104.14) (diameter 0) (color 0 0 0 0)
-    (uuid f180db74-e428-4ae5-92a0-0bf91c737341)
   )
   (junction (at 156.21 187.96) (diameter 0) (color 0 0 0 0)
     (uuid fa704736-a1d3-48ff-afe5-86a353f8a767)
@@ -2809,7 +2809,7 @@
     (uuid e88b078c-4353-46b7-b644-8132629ed51d)
   )
 
-  (wire (pts (xy 209.55 87.63) (xy 209.55 106.68))
+  (wire (pts (xy 250.19 73.66) (xy 250.19 92.71))
     (stroke (width 0) (type default))
     (uuid 02629731-8d56-4c5c-8756-5315127c7b88)
   )
@@ -2821,7 +2821,7 @@
     (stroke (width 0) (type default))
     (uuid 027dc1f8-638f-4df6-87cb-c96c5a0bc8f9)
   )
-  (wire (pts (xy 165.1 87.63) (xy 165.1 95.25))
+  (wire (pts (xy 165.1 73.66) (xy 165.1 95.25))
     (stroke (width 0) (type default))
     (uuid 02e397e8-2a89-4f5f-bdbe-ada7dac7564c)
   )
@@ -2838,7 +2838,7 @@
     (uuid 03e1ae3b-9fba-485c-89de-015ee33f4c4c)
   )
 
-  (wire (pts (xy 101.6 43.18) (xy 104.14 43.18))
+  (wire (pts (xy 101.6 29.21) (xy 104.14 29.21))
     (stroke (width 0) (type default))
     (uuid 045e49cb-2f8c-4a0c-9543-064236f7b051)
   )
@@ -2846,17 +2846,9 @@
     (stroke (width 0) (type default))
     (uuid 06444bec-ee45-4b20-9727-9baa432e54eb)
   )
-  (wire (pts (xy 171.45 109.22) (xy 172.72 109.22))
-    (stroke (width 0) (type default))
-    (uuid 0672f9ab-201f-4093-aa21-fd20992abb73)
-  )
   (wire (pts (xy 205.74 228.6) (xy 205.74 233.68))
     (stroke (width 0) (type default))
     (uuid 0b4690c6-ff5f-4414-a8a0-a444093c7bb4)
-  )
-  (wire (pts (xy 152.4 109.22) (xy 153.67 109.22))
-    (stroke (width 0) (type default))
-    (uuid 0c02119d-7ff0-4054-8fca-04680547fe01)
   )
   (wire (pts (xy 140.97 161.29) (xy 140.97 165.1))
     (stroke (width 0) (type default))
@@ -2915,7 +2907,7 @@
     (stroke (width 0) (type default))
     (uuid 1dd0514e-bb92-4cb7-8c00-eb80e18b2284)
   )
-  (wire (pts (xy 110.49 87.63) (xy 110.49 100.33))
+  (wire (pts (xy 110.49 73.66) (xy 110.49 100.33))
     (stroke (width 0) (type default))
     (uuid 1ddff35c-ba59-499f-bc75-1bde923eec1e)
   )
@@ -2924,15 +2916,15 @@
     (uuid 1e4f8f07-3a2f-4e0a-8c17-2149dd5c8787)
   )
 
-  (wire (pts (xy 207.01 104.14) (xy 200.66 104.14))
+  (wire (pts (xy 247.65 90.17) (xy 241.3 90.17))
     (stroke (width 0) (type default))
     (uuid 1f7022a2-49f9-4cbf-8888-b6dfbd5b7f8e)
   )
-  (wire (pts (xy 194.31 99.06) (xy 194.31 100.33))
+  (wire (pts (xy 234.95 85.09) (xy 234.95 86.36))
     (stroke (width 0) (type default))
     (uuid 1fb626ae-2fa3-4ba5-8b06-e99a9d6fca3f)
   )
-  (wire (pts (xy 201.93 87.63) (xy 201.93 91.44))
+  (wire (pts (xy 242.57 73.66) (xy 242.57 77.47))
     (stroke (width 0) (type default))
     (uuid 20c1c2cf-db95-4ea3-97f4-d7c889373d9e)
   )
@@ -2968,10 +2960,6 @@
     (stroke (width 0) (type default))
     (uuid 25b5ad89-ef8c-4158-afdc-e02e3c924b41)
   )
-  (wire (pts (xy 152.4 104.14) (xy 154.94 104.14))
-    (stroke (width 0) (type default))
-    (uuid 2647b78c-bd00-4ce9-aa85-d9ea5d333323)
-  )
   (wire (pts (xy 171.45 311.15) (xy 195.58 311.15))
     (stroke (width 0) (type default))
     (uuid 26794eda-9b4a-4291-9890-4a1035dbc7fc)
@@ -3000,11 +2988,11 @@
     (stroke (width 0) (type default))
     (uuid 2bda5abc-83ad-4f14-aaec-9a9a04f68d32)
   )
-  (wire (pts (xy 193.04 118.11) (xy 193.04 129.54))
+  (wire (pts (xy 233.68 104.14) (xy 233.68 115.57))
     (stroke (width 0) (type default))
     (uuid 2cb73149-91b2-41a1-aa0b-970ebfcd93fc)
   )
-  (wire (pts (xy 180.34 87.63) (xy 180.34 95.25))
+  (wire (pts (xy 180.34 73.66) (xy 180.34 95.25))
     (stroke (width 0) (type default))
     (uuid 2e895f43-1072-4f5d-a385-79f1f5cc08ad)
   )
@@ -3016,7 +3004,7 @@
     (stroke (width 0) (type default))
     (uuid 2eed61e0-44b8-4e2b-a5f7-7a10fd057b0d)
   )
-  (wire (pts (xy 207.01 118.11) (xy 207.01 129.54))
+  (wire (pts (xy 247.65 104.14) (xy 247.65 115.57))
     (stroke (width 0) (type default))
     (uuid 301b482f-75cc-4371-b5f3-2584507a5efa)
   )
@@ -3029,7 +3017,7 @@
     (stroke (width 0) (type default))
     (uuid 3102d013-cdc5-49d9-9092-3b365ace95fc)
   )
-  (wire (pts (xy 213.36 118.11) (xy 213.36 129.54))
+  (wire (pts (xy 254 104.14) (xy 254 115.57))
     (stroke (width 0) (type default))
     (uuid 31ce2fa0-19de-4590-88bb-c983bc2d29a8)
   )
@@ -3053,15 +3041,20 @@
     (stroke (width 0) (type default))
     (uuid 34ce2bf8-4684-4f84-9e6b-7a8dae5b60c0)
   )
-  (wire (pts (xy 200.66 118.11) (xy 200.66 129.54))
+  (wire (pts (xy 241.3 104.14) (xy 241.3 115.57))
     (stroke (width 0) (type default))
     (uuid 35c3fc26-e8a0-49df-b44a-a9279c8a408e)
   )
-  (wire (pts (xy 152.4 111.76) (xy 152.4 109.22))
+  (polyline (pts (xy 119.38 80.01) (xy 119.38 110.49))
+    (stroke (width 0.254) (type dash))
+    (uuid 36ef8fca-50e4-4751-ab91-f6e1d6eae743)
+  )
+
+  (wire (pts (xy 149.86 111.76) (xy 149.86 109.22))
     (stroke (width 0) (type default))
     (uuid 372759cb-c9a7-4079-8582-2d618e4ec628)
   )
-  (wire (pts (xy 193.04 104.14) (xy 199.39 104.14))
+  (wire (pts (xy 233.68 90.17) (xy 240.03 90.17))
     (stroke (width 0) (type default))
     (uuid 3733251b-6fe2-4d93-8b36-2dfd61aa919c)
   )
@@ -3087,7 +3080,7 @@
     (uuid 3cf19017-9947-4217-9616-08e6d47f3b9d)
   )
 
-  (wire (pts (xy 115.57 87.63) (xy 115.57 91.44))
+  (wire (pts (xy 115.57 73.66) (xy 115.57 91.44))
     (stroke (width 0) (type default))
     (uuid 3e4e552d-d0c1-4d41-927e-5509845591c3)
   )
@@ -3099,6 +3092,11 @@
     (stroke (width 0) (type default))
     (uuid 3fec2215-9d9d-4b3d-90cc-c885dc9ea511)
   )
+  (bus (pts (xy 69.85 280.67) (xy 69.85 279.4))
+    (stroke (width 0) (type default))
+    (uuid 40c8c462-0811-45c1-b26f-9bdcaefb4040)
+  )
+
   (wire (pts (xy 138.43 180.34) (xy 138.43 185.42))
     (stroke (width 0) (type default))
     (uuid 41711fc6-0424-4e8f-bab7-56f29b4a85d9)
@@ -3107,7 +3105,7 @@
     (stroke (width 0) (type default))
     (uuid 42984aed-b952-49f4-9e73-ed0c03f67f82)
   )
-  (wire (pts (xy 201.93 100.33) (xy 194.31 100.33))
+  (wire (pts (xy 242.57 86.36) (xy 234.95 86.36))
     (stroke (width 0) (type default))
     (uuid 42f98c7f-3ab5-41e4-ba27-156c2ec947b9)
   )
@@ -3129,7 +3127,7 @@
     (stroke (width 0) (type default))
     (uuid 4451f0e6-e4d5-4892-bc96-f6da13faf44f)
   )
-  (wire (pts (xy 212.09 106.68) (xy 213.36 106.68))
+  (wire (pts (xy 252.73 92.71) (xy 254 92.71))
     (stroke (width 0) (type default))
     (uuid 448b83e2-21b8-4be5-be48-24c09bd247cd)
   )
@@ -3191,7 +3189,7 @@
     (stroke (width 0) (type default))
     (uuid 505947f2-7e81-4576-88e1-2521c502d5ca)
   )
-  (wire (pts (xy 194.31 87.63) (xy 196.85 87.63))
+  (wire (pts (xy 234.95 73.66) (xy 237.49 73.66))
     (stroke (width 0) (type default))
     (uuid 50e91a88-1349-4926-b13f-f5ec57808172)
   )
@@ -3203,6 +3201,11 @@
     (stroke (width 0) (type default))
     (uuid 5230e053-6cb6-4f12-a8bf-1517e5afb738)
   )
+  (polyline (pts (xy 45.72 110.49) (xy 119.38 110.49))
+    (stroke (width 0.254) (type dash))
+    (uuid 52d5ad09-f6eb-43a1-84b4-3278954b7584)
+  )
+
   (wire (pts (xy 168.91 306.07) (xy 168.91 340.36))
     (stroke (width 0) (type default))
     (uuid 54c0f025-348a-466d-815d-5bdce4e82fc9)
@@ -3219,7 +3222,7 @@
     (stroke (width 0) (type default))
     (uuid 570ebdbc-ce3c-41d6-adf3-a1b35ca795c1)
   )
-  (wire (pts (xy 200.66 104.14) (xy 200.66 110.49))
+  (wire (pts (xy 241.3 90.17) (xy 241.3 96.52))
     (stroke (width 0) (type default))
     (uuid 57365bbe-81f0-4213-aa69-831a92dceaa2)
   )
@@ -3275,7 +3278,7 @@
     (stroke (width 0) (type default))
     (uuid 658275d0-7135-4e59-99f4-61391f7bc9d6)
   )
-  (wire (pts (xy 104.14 43.18) (xy 104.14 45.72))
+  (wire (pts (xy 104.14 29.21) (xy 104.14 31.75))
     (stroke (width 0) (type default))
     (uuid 6600540c-8cfb-4d61-9031-145975181b7b)
   )
@@ -3291,7 +3294,7 @@
     (stroke (width 0) (type default))
     (uuid 6a181ec9-a5c1-4959-bc66-1c0336507425)
   )
-  (wire (pts (xy 201.93 87.63) (xy 204.47 87.63))
+  (wire (pts (xy 242.57 73.66) (xy 245.11 73.66))
     (stroke (width 0) (type default))
     (uuid 6a81abe3-cf8f-45dc-8e62-dd2f01613ffe)
   )
@@ -3302,6 +3305,10 @@
   (bus (pts (xy 245.11 279.4) (xy 242.57 279.4))
     (stroke (width 0) (type default))
     (uuid 6eadcd61-463a-4f73-b82e-ae213c739018)
+  )
+  (bus (pts (xy 48.26 280.67) (xy 69.85 280.67))
+    (stroke (width 0) (type default))
+    (uuid 6fbfbf3c-67b5-4166-8f1e-4ac32b735515)
   )
 
   (wire (pts (xy 93.98 261.62) (xy 72.39 261.62))
@@ -3338,7 +3345,7 @@
     (stroke (width 0) (type default))
     (uuid 71ec3310-2d9c-4d59-8e3f-d2b934f29072)
   )
-  (wire (pts (xy 193.04 104.14) (xy 193.04 110.49))
+  (wire (pts (xy 233.68 90.17) (xy 233.68 96.52))
     (stroke (width 0) (type default))
     (uuid 729b41b7-f708-462c-8036-dc5ae9705f8a)
   )
@@ -3346,7 +3353,7 @@
     (stroke (width 0) (type default))
     (uuid 75481c96-cad6-4594-aeaa-55e55c022a17)
   )
-  (wire (pts (xy 207.01 87.63) (xy 207.01 104.14))
+  (wire (pts (xy 247.65 73.66) (xy 247.65 90.17))
     (stroke (width 0) (type default))
     (uuid 75ba42cd-608d-4b8f-8b05-233be94e507d)
   )
@@ -3410,7 +3417,7 @@
     (uuid 89c7b3f5-e195-4815-afc5-1d1d3fa59637)
   )
 
-  (wire (pts (xy 152.4 109.22) (xy 152.4 104.14))
+  (wire (pts (xy 149.86 109.22) (xy 149.86 104.14))
     (stroke (width 0) (type default))
     (uuid 8a1f2cfd-7918-4a7d-a2f0-360f652774ca)
   )
@@ -3438,6 +3445,11 @@
     (stroke (width 0) (type default))
     (uuid 90f67390-7594-41c3-8049-2216bdcf2960)
   )
+  (polyline (pts (xy 45.72 17.78) (xy 45.72 110.49))
+    (stroke (width 0.254) (type dash))
+    (uuid 9212432c-0f4a-408e-bd05-fb68050572ba)
+  )
+
   (bus (pts (xy 69.85 271.78) (xy 69.85 274.32))
     (stroke (width 0) (type default))
     (uuid 92eaa64a-1d86-4eee-a8e1-a0f207dd078a)
@@ -3455,7 +3467,7 @@
     (stroke (width 0) (type default))
     (uuid 94e25ca2-3dc6-450b-9a42-faff5d1700b4)
   )
-  (wire (pts (xy 172.72 109.22) (xy 172.72 104.14))
+  (wire (pts (xy 175.26 109.22) (xy 175.26 104.14))
     (stroke (width 0) (type default))
     (uuid 9521e808-c643-4802-9b75-7f02d28b3a4e)
   )
@@ -3472,7 +3484,7 @@
     (stroke (width 0) (type default))
     (uuid 984d1609-a475-4b5d-b358-f88059b90b75)
   )
-  (wire (pts (xy 194.31 87.63) (xy 194.31 91.44))
+  (wire (pts (xy 234.95 73.66) (xy 234.95 77.47))
     (stroke (width 0) (type default))
     (uuid 98989398-1912-416e-8ab5-51bdfd95f4ee)
   )
@@ -3493,10 +3505,15 @@
     (stroke (width 0) (type default))
     (uuid a02386d2-1431-41ef-a283-8ecb756b126a)
   )
-  (wire (pts (xy 213.36 106.68) (xy 213.36 110.49))
+  (wire (pts (xy 254 92.71) (xy 254 96.52))
     (stroke (width 0) (type default))
     (uuid a0c111c9-3033-4969-8e53-52202f8a9eb8)
   )
+  (polyline (pts (xy 190.5 17.78) (xy 45.72 17.78))
+    (stroke (width 0.254) (type dash))
+    (uuid a1242fa8-223c-414b-ba12-06f5c56caf2f)
+  )
+
   (wire (pts (xy 161.29 199.39) (xy 161.29 212.09))
     (stroke (width 0) (type default))
     (uuid a38c293e-bbee-434c-8b01-35fb4a12fe3e)
@@ -3529,7 +3546,7 @@
     (stroke (width 0) (type default))
     (uuid a6366720-765f-434d-9b05-cae0214c8aeb)
   )
-  (wire (pts (xy 139.7 90.17) (xy 139.7 87.63))
+  (wire (pts (xy 139.7 90.17) (xy 139.7 73.66))
     (stroke (width 0) (type default))
     (uuid a63dbd59-87f5-44d8-bf79-882249352091)
   )
@@ -3537,11 +3554,6 @@
     (stroke (width 0) (type default))
     (uuid a64138f9-d98c-4fdb-b522-0e7af6629533)
   )
-  (bus (pts (xy 69.85 279.4) (xy 69.85 335.28))
-    (stroke (width 0) (type default))
-    (uuid a71d731d-1628-4f74-88e4-91c2f393ca65)
-  )
-
   (wire (pts (xy 166.37 306.07) (xy 166.37 308.61))
     (stroke (width 0) (type default))
     (uuid a7bbaebc-bcc4-4b57-9584-f24777fdf353)
@@ -3584,6 +3596,10 @@
     (stroke (width 0) (type default))
     (uuid afe506aa-3222-45d9-af89-50e67e8b9bdb)
   )
+  (wire (pts (xy 149.86 104.14) (xy 154.94 104.14))
+    (stroke (width 0) (type default))
+    (uuid b263b273-61a8-4b57-bedf-f07b929ebf88)
+  )
   (wire (pts (xy 165.1 316.23) (xy 163.83 316.23))
     (stroke (width 0) (type default))
     (uuid b40c5cce-e1cf-4ac7-b2e2-f09ea4a7e80c)
@@ -3595,6 +3611,10 @@
   (wire (pts (xy 133.35 306.07) (xy 133.35 335.28))
     (stroke (width 0) (type default))
     (uuid b76ecf5b-8034-49b2-9ffe-1baf328e1b69)
+  )
+  (wire (pts (xy 149.86 109.22) (xy 153.67 109.22))
+    (stroke (width 0) (type default))
+    (uuid b7fabefa-771f-463f-9b45-4c4afb85525c)
   )
   (wire (pts (xy 110.49 306.07) (xy 110.49 330.2))
     (stroke (width 0) (type default))
@@ -3628,6 +3648,11 @@
     (stroke (width 0) (type default))
     (uuid c30f8ede-0d4c-48e2-a08c-3255bdfc2187)
   )
+  (polyline (pts (xy 190.5 80.01) (xy 190.5 17.78))
+    (stroke (width 0.254) (type dash))
+    (uuid c3a3a095-d21a-4b6e-b7c7-7abb89297919)
+  )
+
   (wire (pts (xy 113.03 209.55) (xy 110.49 209.55))
     (stroke (width 0) (type default))
     (uuid c43cc376-58bc-47a1-b1f7-dc19b4d64cd5)
@@ -3658,11 +3683,11 @@
     (uuid c64e2505-9cf5-4f32-a316-4c57fb5521d2)
   )
 
-  (wire (pts (xy 199.39 87.63) (xy 199.39 104.14))
+  (wire (pts (xy 240.03 73.66) (xy 240.03 90.17))
     (stroke (width 0) (type default))
     (uuid c7d51d64-8cbf-4cac-ada1-d2fc0ced6272)
   )
-  (wire (pts (xy 186.69 100.33) (xy 186.69 101.6))
+  (wire (pts (xy 227.33 86.36) (xy 227.33 87.63))
     (stroke (width 0) (type default))
     (uuid c8877691-bf58-4b8c-8934-1f345c6381e0)
   )
@@ -3673,10 +3698,6 @@
   (wire (pts (xy 171.45 209.55) (xy 171.45 212.09))
     (stroke (width 0) (type default))
     (uuid ca4ecf2d-5bad-4ed7-93e0-5fff1f6649ea)
-  )
-  (wire (pts (xy 175.26 104.14) (xy 172.72 104.14))
-    (stroke (width 0) (type default))
-    (uuid cb63d9e5-18bb-44c4-8f0f-b23f31d7117a)
   )
   (wire (pts (xy 229.87 274.32) (xy 187.96 274.32))
     (stroke (width 0) (type default))
@@ -3698,7 +3719,7 @@
     (stroke (width 0) (type default))
     (uuid ce367696-6838-4b5a-8724-a9d493da1d7b)
   )
-  (wire (pts (xy 172.72 120.65) (xy 172.72 119.38))
+  (wire (pts (xy 175.26 120.65) (xy 175.26 119.38))
     (stroke (width 0) (type default))
     (uuid cf400f75-e71d-44c1-8c4d-74c7e0fc0303)
   )
@@ -3710,17 +3731,13 @@
     (stroke (width 0) (type default))
     (uuid cff7bef3-b073-456a-b089-e9c829df72b2)
   )
-  (wire (pts (xy 144.78 87.63) (xy 144.78 95.25))
+  (wire (pts (xy 144.78 73.66) (xy 144.78 95.25))
     (stroke (width 0) (type default))
     (uuid d192f679-3fa2-41a7-9c82-daa759b0ca97)
   )
   (wire (pts (xy 138.43 198.12) (xy 137.16 198.12))
     (stroke (width 0) (type default))
     (uuid d4243664-62fc-4448-97a2-f03eaaa1890e)
-  )
-  (wire (pts (xy 172.72 104.14) (xy 170.18 104.14))
-    (stroke (width 0) (type default))
-    (uuid d4956492-0074-4ba8-bbd1-c935dc0d34fc)
   )
   (wire (pts (xy 165.1 321.31) (xy 165.1 316.23))
     (stroke (width 0) (type default))
@@ -3734,15 +3751,15 @@
     (stroke (width 0) (type default))
     (uuid d62f595f-eff6-4750-a988-c890f1cfee34)
   )
-  (wire (pts (xy 160.02 87.63) (xy 160.02 95.25))
+  (wire (pts (xy 160.02 73.66) (xy 160.02 95.25))
     (stroke (width 0) (type default))
     (uuid d90e5d1b-d99a-4f1c-a56a-094a338a3fed)
   )
-  (wire (pts (xy 201.93 99.06) (xy 201.93 100.33))
+  (wire (pts (xy 242.57 85.09) (xy 242.57 86.36))
     (stroke (width 0) (type default))
     (uuid d95201c2-7dd5-4ff9-a892-2fd7c75d2ac5)
   )
-  (wire (pts (xy 152.4 120.65) (xy 152.4 119.38))
+  (wire (pts (xy 149.86 120.65) (xy 149.86 119.38))
     (stroke (width 0) (type default))
     (uuid d9fa3dbe-6093-438d-9ebc-a12d46291e0e)
   )
@@ -3763,7 +3780,7 @@
     (uuid da8361cd-35b5-4684-b583-c67f09044182)
   )
 
-  (wire (pts (xy 207.01 106.68) (xy 207.01 110.49))
+  (wire (pts (xy 247.65 92.71) (xy 247.65 96.52))
     (stroke (width 0) (type default))
     (uuid da9e84c7-f2ad-4f4a-8df7-95a4c56f4a61)
   )
@@ -3779,7 +3796,7 @@
     (stroke (width 0) (type default))
     (uuid e05fe748-24e1-4559-b9f2-d2322a17e00b)
   )
-  (wire (pts (xy 209.55 106.68) (xy 207.01 106.68))
+  (wire (pts (xy 250.19 92.71) (xy 247.65 92.71))
     (stroke (width 0) (type default))
     (uuid e06f8825-6f9e-4954-8082-c164a6365806)
   )
@@ -3811,10 +3828,15 @@
     (stroke (width 0) (type default))
     (uuid e6d6070f-4b82-414f-a44a-c560a0fb1dcb)
   )
-  (wire (pts (xy 212.09 87.63) (xy 212.09 106.68))
+  (wire (pts (xy 252.73 73.66) (xy 252.73 92.71))
     (stroke (width 0) (type default))
     (uuid e72e3f0b-de13-4017-a4c6-9f105eff77e4)
   )
+  (polyline (pts (xy 119.38 80.01) (xy 190.5 80.01))
+    (stroke (width 0.254) (type dash))
+    (uuid e7c4836c-c9e9-4bb5-9413-9ad7c5b46432)
+  )
+
   (bus (pts (xy 123.19 332.74) (xy 120.65 332.74))
     (stroke (width 0) (type default))
     (uuid e8e9ca41-8fa5-459c-81ba-53155db1bd00)
@@ -3831,6 +3853,10 @@
   (wire (pts (xy 123.19 306.07) (xy 123.19 330.2))
     (stroke (width 0) (type default))
     (uuid ea4c6587-71f3-476f-8817-1401c284aee9)
+  )
+  (wire (pts (xy 170.18 104.14) (xy 175.26 104.14))
+    (stroke (width 0) (type default))
+    (uuid eaa325de-b0b3-4343-b741-a4b52c9e8c78)
   )
   (wire (pts (xy 148.59 210.82) (xy 148.59 212.09))
     (stroke (width 0) (type default))
@@ -3873,10 +3899,6 @@
     (stroke (width 0) (type default))
     (uuid f2c06269-9a1c-49a0-b65f-912a582259d3)
   )
-  (wire (pts (xy 152.4 104.14) (xy 149.86 104.14))
-    (stroke (width 0) (type default))
-    (uuid f3503c90-b233-4458-9081-09ba8b8b8bcc)
-  )
   (wire (pts (xy 82.55 281.94) (xy 85.09 281.94))
     (stroke (width 0) (type default))
     (uuid f525d3f9-a371-48c0-91a0-2b0269fa75d5)
@@ -3890,6 +3912,10 @@
     (stroke (width 0) (type default))
     (uuid f6e0c924-496e-430d-97e2-8a0e313d8fdc)
   )
+  (wire (pts (xy 171.45 109.22) (xy 175.26 109.22))
+    (stroke (width 0) (type default))
+    (uuid f717f710-6f2b-4682-9351-616f9b691303)
+  )
   (wire (pts (xy 83.82 100.33) (xy 110.49 100.33))
     (stroke (width 0) (type default))
     (uuid f9463c66-5081-4815-955f-b854215674aa)
@@ -3902,7 +3928,7 @@
     (stroke (width 0) (type default))
     (uuid f9a2385d-6d92-48ad-ae0d-623b665bffd0)
   )
-  (wire (pts (xy 172.72 111.76) (xy 172.72 109.22))
+  (wire (pts (xy 175.26 111.76) (xy 175.26 109.22))
     (stroke (width 0) (type default))
     (uuid fbe2f672-fdf4-4f36-881c-ab7f7b8795dc)
   )
@@ -3934,6 +3960,30 @@
   (wire (pts (xy 187.96 271.78) (xy 205.74 271.78))
     (stroke (width 0) (type default))
     (uuid fe71b09d-f38f-4c63-bfd8-a036987e7dcc)
+  )
+
+  (rectangle (start 209.55 41.91) (end 275.59 129.54)
+    (stroke (width 0.254) (type dash))
+    (fill (type none))
+    (uuid 6a9e0076-ff38-4604-8610-1120947ddbbe)
+  )
+  (rectangle (start 153.67 106.68) (end 172.72 129.54)
+    (stroke (width 0.254) (type dash))
+    (fill (type none))
+    (uuid 6c2851e9-8aab-4f91-8c53-3320e2d65c1f)
+  )
+
+  (text "Transformerless\nvariant" (at 210.82 128.27 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0bc44314-d00b-4a88-bd68-04f5f56b653c)
+  )
+  (text "Transformer\nvariant" (at 48.26 107.95 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2e32748b-76de-47ec-9dbd-f1de170309a7)
+  )
+  (text "Transformerless\nvariant" (at 154.94 128.27 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 90ec67c0-8340-4f6a-a4f7-be6e3754d41d)
   )
 
   (label "ETH-BUS-ADDR5" (at 113.03 311.15 270) (fields_autoplaced)
@@ -3976,11 +4026,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 32170d95-2485-4975-91f4-23b44fe9aa93)
   )
-  (label "RXIN" (at 193.04 123.19 270) (fields_autoplaced)
+  (label "RXIN" (at 233.68 109.22 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 35529160-2231-47b7-b720-9e8447782e1b)
   )
-  (label "TXON" (at 207.01 123.19 270) (fields_autoplaced)
+  (label "TXON" (at 247.65 109.22 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 39e14ff5-6028-4bd2-81a0-6b8c6b9f4fa2)
   )
@@ -4040,7 +4090,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b9c17331-e166-4be8-88a5-a06556c84e1b)
   )
-  (label "RXIP" (at 200.66 123.19 270) (fields_autoplaced)
+  (label "RXIP" (at 241.3 109.22 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid bdf8936f-7f6c-40c5-ab81-d0417063a83e)
   )
@@ -4064,7 +4114,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c9f79d67-32a8-4156-a110-65fa9731c3e7)
   )
-  (label "TXOP" (at 213.36 123.19 270) (fields_autoplaced)
+  (label "TXOP" (at 254 109.22 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid cce13bc1-d107-4fd2-ae71-fcb52f0d12a8)
   )
@@ -4097,10 +4147,10 @@
     (uuid fc025329-f820-4b83-b6b4-8272709797c3)
   )
 
-  (global_label "ETH-BUS-DATA[0..7]" (shape bidirectional) (at 69.85 335.28 270) (fields_autoplaced)
+  (global_label "ETH-BUS-DATA[0..7]" (shape bidirectional) (at 48.26 280.67 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 08e6ab15-bb74-4f6c-94d6-2e940667a09a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 69.85 359.5152 90)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 24.0248 280.67 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
   )
@@ -4132,7 +4182,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
     )
   )
-  (global_label "ETH-LINKLED" (shape output) (at 83.82 100.33 180) (fields_autoplaced)
+  (global_label "ETH-LINKLED" (shape input) (at 83.82 100.33 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5b20d1eb-3745-46af-a91d-ed01d230e080)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 68.1348 100.33 0)
@@ -4225,8 +4275,8 @@
     (property "Datasheet" "~" (at 167.64 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 08ff207f-c0fa-47e9-bec0-600bfdae8db4))
-    (pin "2" (uuid 0e356eb4-659e-431e-98b4-e0c0efd42f66))
+    (pin "1" (uuid 7661d69f-c30d-496c-a887-12f282642e64))
+    (pin "2" (uuid 7d4e95f8-9898-4b08-aea2-81c5c4d21895))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4251,7 +4301,7 @@
     (property "Datasheet" "" (at 143.51 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f26460d0-a4aa-4684-b815-d9e560daa959))
+    (pin "1" (uuid bf6329a3-7edb-41e7-9f11-5d2b82a27327))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -4274,27 +4324,27 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 201.93 95.25 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 242.57 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 049d03fb-0549-40ba-bfa1-e323e0e0db91)
-    (property "Reference" "R211" (at 203.962 95.25 90)
+    (property "Reference" "R212" (at 244.602 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "75R" (at 201.93 95.25 90)
+    (property "Value" "75R" (at 242.57 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 200.152 95.25 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 240.792 81.28 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 201.93 95.25 0)
+    (property "Datasheet" "~" (at 242.57 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ba1a516-d15d-47b5-9af6-22621591e5a0))
-    (pin "2" (uuid b1a535ae-3d34-4be0-b5a1-9f5825cab9b1))
+    (pin "1" (uuid 10a56312-c1e3-448e-a736-8b594a5b0841))
+    (pin "2" (uuid 784b12a1-ec00-47c6-8f88-7a034223049f))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "R211") (unit 1)
+          (reference "R212") (unit 1)
         )
       )
     )
@@ -4315,7 +4365,7 @@
     (property "Datasheet" "" (at 168.91 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7bfd2948-0582-4318-a063-04c9bab917de))
+    (pin "1" (uuid 85df9466-c59a-4983-a0cc-a18ee05af45e))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4325,27 +4375,27 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 172.72 115.57 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 175.26 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0557dae9-ec99-40cd-9e94-85530c8add56)
-    (property "Reference" "C217" (at 172.72 113.665 0)
+    (property "Reference" "C219" (at 175.26 113.665 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 172.72 117.475 0)
+    (property "Value" "100n" (at 175.26 117.475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 173.6852 119.38 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 176.2252 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 172.72 115.57 0)
+    (property "Datasheet" "~" (at 175.26 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 97202574-d25e-4b79-9ab7-2022066c91e6))
-    (pin "2" (uuid d7418ced-7979-4981-9455-c9886329831d))
+    (pin "1" (uuid 51190b7b-c5bd-4b6b-9f37-42db12b17930))
+    (pin "2" (uuid 5f23e8e3-4efc-4d09-adc9-624dcf41347e))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C217") (unit 1)
+          (reference "C219") (unit 1)
         )
       )
     )
@@ -4366,7 +4416,7 @@
     (property "Datasheet" "" (at 132.08 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2087095a-bf08-4527-8002-3ce2b925883a))
+    (pin "1" (uuid d6230c3c-dc7d-44a6-99eb-2b3435a0c67e))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -4389,27 +4439,27 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 213.36 114.3 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 254 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07f4df6c-1620-426e-b314-bef129514526)
-    (property "Reference" "C225" (at 213.36 112.395 0)
+    (property "Reference" "C229" (at 254 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "33n" (at 213.36 116.205 0)
+    (property "Value" "33n" (at 254 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 214.3252 118.11 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 254.9652 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 213.36 114.3 0)
+    (property "Datasheet" "~" (at 254 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63eee35c-579b-46bc-a1d2-0f75acf54439))
-    (pin "2" (uuid be9055e2-4710-4f0e-a0b4-50cde4bd06ec))
+    (pin "1" (uuid 79eb58d4-63a3-4cc8-914d-53af0e75e727))
+    (pin "2" (uuid e3705b96-5044-48c8-b1bc-86b3b84ceead))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C225") (unit 1)
+          (reference "C229") (unit 1)
         )
       )
     )
@@ -4430,8 +4480,8 @@
     (property "Datasheet" "~" (at 205.74 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ae0cbac-5f5d-4a89-acc6-b17980e4a12b))
-    (pin "2" (uuid a01eaec2-9cc2-41d6-8cd4-97a3ca05caef))
+    (pin "1" (uuid 0a2c9e75-d06e-426d-93e2-2d98fe86d11b))
+    (pin "2" (uuid 14ee2bed-c209-4f30-864d-fc7c307242e8))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -4448,7 +4498,7 @@
           (reference "C17") (unit 1)
         )
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C223") (unit 1)
+          (reference "C220") (unit 1)
         )
       )
     )
@@ -4469,8 +4519,8 @@
     (property "Datasheet" "~" (at 154.94 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9894f0a2-346a-4230-9a95-b8bb3f272a95))
-    (pin "2" (uuid 93ce290b-3c06-4136-85e4-59832bfbe4a3))
+    (pin "1" (uuid 43d186cf-3bd3-4f6f-8396-3c3161517f8d))
+    (pin "2" (uuid c5b4037e-f264-40be-a6d5-72b937f93243))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4495,7 +4545,7 @@
     (property "Datasheet" "" (at 156.21 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 77d543f8-3764-4946-8628-ab9a7d1e306d))
+    (pin "1" (uuid 712a9c00-1c87-4ca0-8e62-8b5318ad5d52))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4508,7 +4558,7 @@
   (symbol (lib_id "Device:C") (at 214.63 269.24 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0da0ca74-5f1b-45ad-ae10-224a8cd28eae)
-    (property "Reference" "C227" (at 212.09 274.32 0)
+    (property "Reference" "C222" (at 212.09 274.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 217.17 274.32 0)
@@ -4520,12 +4570,12 @@
     (property "Datasheet" "~" (at 214.63 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 938fcfb0-ce31-432d-beae-a263a9f2723c))
-    (pin "2" (uuid 97efc9bf-1c36-46a0-9c3f-b6a736d25b01))
+    (pin "1" (uuid 0cab34d1-9e04-4ed1-b306-525fcb4419da))
+    (pin "2" (uuid 78065cc0-f7c7-4227-874e-105b3cbe4c56))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C227") (unit 1)
+          (reference "C222") (unit 1)
         )
       )
     )
@@ -4534,7 +4584,7 @@
   (symbol (lib_id "Device:C") (at 215.9 245.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0de59525-e7b4-4a89-ba00-fbbbf5ae82a2)
-    (property "Reference" "C228" (at 213.995 245.11 0)
+    (property "Reference" "C223" (at 213.995 245.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 217.805 245.11 0)
@@ -4546,12 +4596,12 @@
     (property "Datasheet" "~" (at 215.9 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cdf77554-d586-4414-8128-c484757e8497))
-    (pin "2" (uuid b720d84c-a7e9-4d94-a06e-482c80d8c7cf))
+    (pin "1" (uuid 2204bc14-ed2d-40c7-8473-d79146a370c7))
+    (pin "2" (uuid 707e94dd-161b-44e1-8531-da3d7d9fc5e2))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C228") (unit 1)
+          (reference "C223") (unit 1)
         )
       )
     )
@@ -4572,7 +4622,7 @@
     (property "Datasheet" "" (at 128.27 316.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c449afc1-e71b-4874-89e2-cdb206b8a302))
+    (pin "1" (uuid d8396c25-fc7b-4be1-bde0-c7dce2d56f25))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4597,7 +4647,7 @@
     (property "Datasheet" "" (at 137.16 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0b4600f6-ea6f-4b0c-b0fc-f7f2814b8742))
+    (pin "1" (uuid c0121c37-4c34-4a85-9e83-7be4197ca2d3))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4622,7 +4672,7 @@
     (property "Datasheet" "" (at 132.08 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8e7fd554-0f50-454a-aa01-d9ca0317b5a9))
+    (pin "1" (uuid 39567e52-52fa-4935-a4ef-781f3d7567e4))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -4648,7 +4698,7 @@
   (symbol (lib_id "Device:R") (at 209.55 228.6 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11864f79-60e2-42e9-bdc4-c34a3783e046)
-    (property "Reference" "R212" (at 209.55 230.632 90)
+    (property "Reference" "R210" (at 209.55 230.632 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 209.55 228.6 90)
@@ -4660,12 +4710,12 @@
     (property "Datasheet" "~" (at 209.55 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 865fe8fd-47f4-4fc7-905f-f463f482ff87))
-    (pin "2" (uuid 34b4af21-de4e-4f3e-85c0-e95158ada8a8))
+    (pin "1" (uuid 4b03a724-66fe-45d8-9d70-5cf95c128e9e))
+    (pin "2" (uuid c92100ec-6ae6-4ed2-9566-279e88c6ab49))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "R212") (unit 1)
+          (reference "R210") (unit 1)
         )
       )
     )
@@ -4686,7 +4736,7 @@
     (property "Datasheet" "" (at 91.44 281.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 48a93700-5e72-4b3b-b152-fd2efa4afdb9))
+    (pin "1" (uuid 0891a8ac-28cd-49e0-bc8c-96ce3a5eb334))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -4724,8 +4774,8 @@
     (property "Datasheet" "~" (at 129.54 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 152564e8-947e-4c2a-8e6e-45e40b89ec00))
-    (pin "2" (uuid a988ddd6-a835-40d3-8a2e-e423b49f713a))
+    (pin "1" (uuid 255c97f7-51ee-4fae-a43c-baecd15061b9))
+    (pin "2" (uuid 8fbb1ce3-da1b-43dc-91d2-42ce34accbcc))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4750,7 +4800,7 @@
     (property "Datasheet" "" (at 83.82 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a71308ff-2939-4087-95dc-5f785e2809e5))
+    (pin "1" (uuid cda49a76-ceb0-4e8b-82b4-4153c1cb09f7))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4775,7 +4825,7 @@
     (property "Datasheet" "" (at 190.5 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b9b269d-37e3-4df7-bf2c-a4a227d0d3de))
+    (pin "1" (uuid 81495ef7-7340-4ab0-906f-81274d8949fa))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -4792,7 +4842,7 @@
           (reference "#PWR027") (unit 1)
         )
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0256") (unit 1)
+          (reference "#PWR0255") (unit 1)
         )
       )
     )
@@ -4801,7 +4851,7 @@
   (symbol (lib_id "Device:C") (at 215.9 251.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b89ba4b-1fc2-4c42-ad06-dd1ad3db5079)
-    (property "Reference" "C229" (at 213.995 251.46 0)
+    (property "Reference" "C224" (at 213.995 251.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 217.805 251.46 0)
@@ -4813,40 +4863,40 @@
     (property "Datasheet" "~" (at 215.9 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2e2be106-5303-44ea-aca2-80e8333f1768))
-    (pin "2" (uuid efef7c8b-6e57-465b-96e4-90ec5f1a7b66))
+    (pin "1" (uuid 8754b96e-412f-4d02-92e8-24bcbba731bf))
+    (pin "2" (uuid 4baba2ae-acc5-4c64-be2f-3fc42842e467))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C229") (unit 1)
+          (reference "C224") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Connector:RJ45") (at 204.47 77.47 90) (mirror x) (unit 1)
+  (symbol (lib_id "Connector:RJ45") (at 245.11 63.5 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f83378a-ac09-4180-b75b-240a63a50dc4)
-    (property "Reference" "J201" (at 190.5 76.2 90)
+    (property "Reference" "J201" (at 231.14 62.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "RJ45" (at 190.5 78.74 90)
+    (property "Value" "RJ45" (at 231.14 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE5380" (at 203.835 77.47 90)
+    (property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE5380" (at 244.475 63.5 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 203.835 77.47 90)
+    (property "Datasheet" "~" (at 244.475 63.5 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 360434d3-ea90-47f8-8e3f-3d270373d5c1))
-    (pin "2" (uuid f0f564aa-4371-4080-9d9c-26993f78a605))
-    (pin "3" (uuid bdf2ba9a-74ae-4d57-b547-437411a99689))
-    (pin "4" (uuid 1133c34d-5580-4913-96d2-31278f16dba8))
-    (pin "5" (uuid 7ca6493b-00cc-4ee7-88c0-9592c29ee6df))
-    (pin "6" (uuid e79034f5-e72f-4aab-82cf-72117bba14a3))
-    (pin "7" (uuid 68f5b11c-e6e6-458b-a66d-6e300d7ef58c))
-    (pin "8" (uuid 1887eda3-01d3-4c76-981c-da12c9c105b6))
+    (pin "1" (uuid bf36671e-5a14-49f1-93f9-8b93bea3697d))
+    (pin "2" (uuid e745aa72-3152-4fea-8d44-f0b89ba97719))
+    (pin "3" (uuid 6d8ec9b9-2ef4-4d32-ae6b-3772ccdc3246))
+    (pin "4" (uuid da5b9c5f-8c95-4b81-9a7d-6d640c1112f1))
+    (pin "5" (uuid 7f352515-946e-4e91-aa8e-0f02cacac1b2))
+    (pin "6" (uuid 176f18f6-9407-4a36-a64b-5d3997841edf))
+    (pin "7" (uuid b2a711a2-39db-4dd0-9a33-e4512baacd76))
+    (pin "8" (uuid ee3a311e-057b-4535-aa82-1071b1748068))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4871,8 +4921,8 @@
     (property "Datasheet" "~" (at 170.18 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d8065bd-8c0f-4c72-8a52-ec204ac55b60))
-    (pin "2" (uuid 43b4c1f7-a7c4-449b-b6c3-50bfef5316a8))
+    (pin "1" (uuid 54affedb-6ff4-429e-87f9-3786f6f5d7be))
+    (pin "2" (uuid adf58f50-3f6c-4b22-a59a-16e469c0bd1c))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4897,8 +4947,8 @@
     (property "Datasheet" "~" (at 171.45 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f49846d3-78a9-4c9c-9e42-5968310b16b7))
-    (pin "2" (uuid 092955e1-41a7-4370-8d70-55a05185e280))
+    (pin "1" (uuid 83844c45-000c-48fb-b7be-90553ea7ffd1))
+    (pin "2" (uuid e535391f-2b1d-4c6a-81df-b0f8563a14e7))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4923,8 +4973,8 @@
     (property "Datasheet" "~" (at 137.16 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 85158618-60d9-44d9-a8e9-ba6a38e33cdd))
-    (pin "2" (uuid 6daca7c0-4d49-4123-a2b7-79dd1c6189f7))
+    (pin "1" (uuid e24054d0-5014-4486-9648-bcae59b839e9))
+    (pin "2" (uuid b47a4d5a-24d3-4f9a-904b-f0af56e79227))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4949,7 +4999,7 @@
     (property "Datasheet" "" (at 148.59 210.82 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid 085e6386-f8af-456e-b47a-1f802e7955c9))
+    (pin "1" (uuid f360bdd8-a3fc-4576-abfb-7cb4d1c20ee4))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -4974,8 +5024,8 @@
     (property "Datasheet" "~" (at 78.74 281.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c553e401-b2df-4448-8e90-a3c4b2714de4))
-    (pin "2" (uuid a92bd2a8-3efc-422c-a8b8-ba93f62dc56f))
+    (pin "1" (uuid f25c82d9-4f86-4d07-828f-2e10c937e2a1))
+    (pin "2" (uuid 7178c5d0-3f3a-4808-9d0b-baf28c51668d))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5000,8 +5050,8 @@
     (property "Datasheet" "~" (at 147.32 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b6812c2d-0449-480a-b4ed-510e5cf66aeb))
-    (pin "2" (uuid 5ab19e21-ba60-4f9f-b51c-83ed5e7d300b))
+    (pin "1" (uuid 82195f29-5b88-4b15-9b0c-b5204314d129))
+    (pin "2" (uuid 901b1fb2-3348-4320-8087-7c95a481ec52))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5026,7 +5076,7 @@
     (property "Datasheet" "" (at 146.05 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 77f9cc0f-74e6-4ee5-80b0-7b9551b34fa2))
+    (pin "1" (uuid 84df6386-6ae6-4a77-af14-c064197089dc))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5051,7 +5101,7 @@
     (property "Datasheet" "" (at 130.81 330.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 20810d1a-cb90-4a00-a947-dae9948e2284))
+    (pin "1" (uuid 35a14873-7d77-4ff3-8424-cecf679e707a))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -5089,7 +5139,7 @@
     (property "Datasheet" "" (at 124.46 90.17 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid 39165bac-bb59-4473-a645-8b754acb8287))
+    (pin "1" (uuid 9ab318fb-9c64-4b00-b6ba-5695b6a52fbf))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5114,7 +5164,7 @@
     (property "Datasheet" "" (at 167.64 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6a66f016-f6f0-46d2-8482-d76d1de61c65))
+    (pin "1" (uuid bde1dadd-a4c2-41ab-a5cf-f66713b18283))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -5137,27 +5187,27 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 190.5 100.33 90) (unit 1)
+  (symbol (lib_id "Device:C") (at 231.14 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 307c706e-e51e-44ce-9fe6-1115c0d17895)
-    (property "Reference" "C220" (at 188.595 100.33 0)
+    (property "Reference" "C225" (at 229.235 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1n_2kV" (at 192.405 100.33 0)
+    (property "Value" "1n_2kV" (at 233.045 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 194.31 99.3648 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 234.95 85.3948 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 190.5 100.33 0)
+    (property "Datasheet" "~" (at 231.14 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bf9bdfa1-a867-417f-9624-9d78b834c6e5))
-    (pin "2" (uuid 514ab285-9b34-4d8f-80df-aef2b8e2e1fb))
+    (pin "1" (uuid bdc7633b-de2e-4651-9762-30c684a32058))
+    (pin "2" (uuid 29d80c7b-6ecf-45dd-b607-58bf9d56c841))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C220") (unit 1)
+          (reference "C225") (unit 1)
         )
       )
     )
@@ -5178,7 +5228,7 @@
     (property "Datasheet" "" (at 69.85 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 20365abe-2a45-4398-a8b1-fbd46f769a84))
+    (pin "1" (uuid c92ad3d1-d73c-4d96-94ac-e67574f10220))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -5216,7 +5266,7 @@
     (property "Datasheet" "" (at 167.64 152.4 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid 5ae9b855-ca77-442e-a194-0662b30f6d13))
+    (pin "1" (uuid d6bb7e87-b782-4601-babe-0cdb2ffb1e66))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5241,7 +5291,7 @@
     (property "Datasheet" "" (at 214.63 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 502a5845-410c-4fd6-a017-3f3464145022))
+    (pin "1" (uuid 460dcd9f-39fa-4949-bf06-7aae802ca5c9))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -5258,7 +5308,7 @@
           (reference "#PWR029") (unit 1)
         )
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0265") (unit 1)
+          (reference "#PWR0264") (unit 1)
         )
       )
     )
@@ -5279,8 +5329,8 @@
     (property "Datasheet" "~" (at 157.48 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75f4b81a-d309-4125-a6f1-fd93bdc1eb84))
-    (pin "2" (uuid ebdb2b75-77a4-47c4-af47-cbdabfee9937))
+    (pin "1" (uuid 55b1d24e-dce4-4694-828b-e143a0dc3cdd))
+    (pin "2" (uuid b7806861-c13a-4868-8df0-cf224519154b))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5293,7 +5343,7 @@
   (symbol (lib_id "Project_Specific_Power:+1V8D") (at 205.74 248.92 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3aa7dfd0-bf0e-491b-b684-2bfdae48d606)
-    (property "Reference" "#PWR0262" (at 201.93 248.92 0)
+    (property "Reference" "#PWR0261" (at 201.93 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8D" (at 209.296 248.92 0)
@@ -5305,11 +5355,11 @@
     (property "Datasheet" "" (at 205.74 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d93b851f-2666-428a-a1a6-0cb0d8f872f8))
+    (pin "1" (uuid 902ecdec-5fcf-43cb-9709-afaf96baa709))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0262") (unit 1)
+          (reference "#PWR0261") (unit 1)
         )
       )
     )
@@ -5330,7 +5380,7 @@
     (property "Datasheet" "" (at 142.24 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4f09b663-ccf8-4171-a2e7-50c15c79b442))
+    (pin "1" (uuid 9e77415a-eec8-4b9f-b239-8ce415c2e1b3))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5340,22 +5390,22 @@
     )
   )
 
-  (symbol (lib_id "Project_Specific_Power:ETH_GNDA") (at 152.4 120.65 0) (unit 1)
+  (symbol (lib_id "Project_Specific_Power:ETH_GNDA") (at 149.86 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c8bcfa1-b6e2-48a1-883a-412b83183b2e)
-    (property "Reference" "#PWR0237" (at 152.4 127 0)
+    (property "Reference" "#PWR0237" (at 149.86 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "ETH_GNDA" (at 152.4 123.6472 0)
+    (property "Value" "ETH_GNDA" (at 149.86 123.6472 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 152.4 120.65 0)
+    (property "Footprint" "" (at 149.86 120.65 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 152.4 120.65 0)
+    (property "Datasheet" "" (at 149.86 120.65 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid 427b4176-48a7-402a-9fea-45fbbc4a30f3))
+    (pin "1" (uuid 841e80bb-08c1-4247-94a0-6dcfdb3cf38b))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5365,53 +5415,53 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 200.66 114.3 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 241.3 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f33ba7c-24f0-4968-884b-63b768e7a27e)
-    (property "Reference" "C222" (at 200.66 112.395 0)
+    (property "Reference" "C227" (at 241.3 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "33n" (at 200.66 116.205 0)
+    (property "Value" "33n" (at 241.3 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 201.6252 118.11 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 242.2652 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 200.66 114.3 0)
+    (property "Datasheet" "~" (at 241.3 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2e52432b-67f2-4662-ba39-ca4baa14090b))
-    (pin "2" (uuid fa1fa51c-23dc-4cb5-a15d-399c140929cb))
+    (pin "1" (uuid 1b1e1de0-6be0-414c-8a3c-afba2f88d6cb))
+    (pin "2" (uuid e7e770d0-5228-42fa-950a-9bf18777a028))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C222") (unit 1)
+          (reference "C227") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C") (at 207.01 114.3 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 247.65 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4043e2ea-559a-4745-97ae-db7aceb2df30)
-    (property "Reference" "C224" (at 207.01 112.395 0)
+    (property "Reference" "C228" (at 247.65 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "33n" (at 207.01 116.205 0)
+    (property "Value" "33n" (at 247.65 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 207.9752 118.11 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 248.6152 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 207.01 114.3 0)
+    (property "Datasheet" "~" (at 247.65 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8903a9c8-cc52-436d-990f-2056ca992e0a))
-    (pin "2" (uuid 60e92b77-7413-485a-ba84-8f3b5a5c3ece))
+    (pin "1" (uuid 31cc6312-a907-42f2-8312-e1acb774e4ee))
+    (pin "2" (uuid 3cb0c241-5743-4661-94e6-f1fd0f440077))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C224") (unit 1)
+          (reference "C228") (unit 1)
         )
       )
     )
@@ -5432,7 +5482,7 @@
     (property "Datasheet" "" (at 152.4 152.4 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid 75b76d58-2433-4257-b76b-a61a59ccb9f6))
+    (pin "1" (uuid 6c848d9f-56c1-47fe-965e-7ec1465c253e))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5457,8 +5507,8 @@
     (property "Datasheet" "~" (at 165.1 325.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 512ed745-a061-4d83-a5c0-5fa4c073c534))
-    (pin "2" (uuid ff060e1b-23bf-4b91-9cee-b5cbec442f28))
+    (pin "1" (uuid 69a8be87-6be8-4621-9695-9a218741ecb0))
+    (pin "2" (uuid ee2a4ea0-1913-413f-9f4f-4fb5f7924774))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5483,7 +5533,7 @@
     (property "Datasheet" "" (at 165.1 330.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b51b6d54-fc2a-4af4-8b2b-bada924865b5))
+    (pin "1" (uuid 8637c6cd-4a4c-4174-a7c4-9523ea2e0581))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -5521,8 +5571,8 @@
     (property "Datasheet" "~" (at 138.43 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2841fcbe-a382-4dcc-bb95-febcd83fe9f0))
-    (pin "2" (uuid f2a9be96-8d3d-4844-bace-37e89bd44eef))
+    (pin "1" (uuid b65cdfee-2b6e-4e7c-8cea-d995edabb9f9))
+    (pin "2" (uuid 014069a6-3676-460f-90c4-6d85bf6de5f8))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5547,7 +5597,7 @@
     (property "Datasheet" "" (at 156.21 175.26 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid fc04d351-083f-4121-b82a-214d9928369c))
+    (pin "1" (uuid d3d20753-7bd5-47d5-89e9-babc12657f3a))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5572,7 +5622,7 @@
     (property "Datasheet" "" (at 92.71 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae794e20-daae-4b34-81ff-0b53e59f5927))
+    (pin "1" (uuid 1593887c-1c48-4c83-9f3b-61aed8b17e92))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -5610,8 +5660,8 @@
     (property "Datasheet" "~" (at 137.16 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ab484120-d087-48d0-8904-2b1c5ca8d13d))
-    (pin "2" (uuid 425d8772-7332-4d55-b374-3060026b7c22))
+    (pin "1" (uuid 49c36d47-b023-4515-b39b-d59b8526b9ee))
+    (pin "2" (uuid 6de0c518-d418-4ff3-994e-c338bda14f19))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5636,8 +5686,8 @@
     (property "Datasheet" "~" (at 142.24 325.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2da249e9-9566-44ca-9302-f9980338892b))
-    (pin "2" (uuid 58d2bd20-66d0-4774-b786-2612d9624b3b))
+    (pin "1" (uuid 405ac5b8-2e4b-4ec4-9552-6d35ef3851fa))
+    (pin "2" (uuid 419fbd7f-e81c-4cba-8367-c4295ae3cb0d))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5662,7 +5712,7 @@
     (property "Datasheet" "" (at 190.5 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5fead583-d6e3-442d-9255-1df4975eea54))
+    (pin "1" (uuid 16d8182b-ac9d-49de-a39c-ea3c30cf5756))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -5679,7 +5729,7 @@
           (reference "#PWR027") (unit 1)
         )
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0258") (unit 1)
+          (reference "#PWR0257") (unit 1)
         )
       )
     )
@@ -5700,7 +5750,7 @@
     (property "Datasheet" "" (at 140.97 316.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aca9e948-74f7-44fe-904f-291f68f8349d))
+    (pin "1" (uuid 99ea4683-cfaf-429c-9db5-3cccf286c7f5))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5725,7 +5775,7 @@
     (property "Datasheet" "" (at 130.81 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e0650b87-9d1b-4670-bae4-7281a848d5f1))
+    (pin "1" (uuid 82121719-874d-4c2b-9809-738900e357c8))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5735,27 +5785,27 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 194.31 95.25 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 234.95 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5db65066-0e58-47ad-9e83-fa70fb77a464)
-    (property "Reference" "R210" (at 196.342 95.25 90)
+    (property "Reference" "R211" (at 236.982 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "75R" (at 194.31 95.25 90)
+    (property "Value" "75R" (at 234.95 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 192.532 95.25 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 233.172 81.28 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 194.31 95.25 0)
+    (property "Datasheet" "~" (at 234.95 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 317cb65a-d34c-40c6-bdb1-29ed32a5abe1))
-    (pin "2" (uuid 25655b02-0d77-40c9-bd4f-ff38830e4a82))
+    (pin "1" (uuid ca0a7439-38c5-4999-9231-e85134c0ab15))
+    (pin "2" (uuid f9d26e3a-d74d-4be3-8b3d-48bef25970b8))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "R210") (unit 1)
+          (reference "R211") (unit 1)
         )
       )
     )
@@ -5764,7 +5814,7 @@
   (symbol (lib_id "Project_Specific_Power:+3V3") (at 205.74 271.78 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e0caf64-12ab-4c3d-92e0-72a01ab293c1)
-    (property "Reference" "#PWR0263" (at 201.93 271.78 0)
+    (property "Reference" "#PWR0262" (at 201.93 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 209.55 270.51 0)
@@ -5776,11 +5826,11 @@
     (property "Datasheet" "" (at 205.74 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 18ef47ff-bb93-406e-83b9-032d9ce58eda))
+    (pin "1" (uuid 5382d420-9649-4168-a137-5a2bc191c29a))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0263") (unit 1)
+          (reference "#PWR0262") (unit 1)
         )
       )
     )
@@ -5801,7 +5851,7 @@
     (property "Datasheet" "" (at 130.81 308.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 81a05de4-48cd-4483-9c52-ba5157b82da2))
+    (pin "1" (uuid ec1a3228-7a43-430b-9a58-193fc75e7395))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -5839,7 +5889,7 @@
     (property "Datasheet" "" (at 139.7 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5a60fb53-539f-4f1c-bb79-c7523b53610d))
+    (pin "1" (uuid 926da7c3-0ad5-45f9-97da-6230366a140d))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5864,7 +5914,7 @@
     (property "Datasheet" "" (at 130.81 185.42 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid 4609b4c5-7358-4e66-b305-03f2a00684a1))
+    (pin "1" (uuid 49ae3f77-3a78-4f03-b18e-313201c63e56))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5889,8 +5939,8 @@
     (property "Datasheet" "~" (at 157.48 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e2ff930a-a06a-49e1-8678-05a9a4d6283f))
-    (pin "2" (uuid f83985e1-e7af-4d7e-8f21-c6270e40b8f9))
+    (pin "1" (uuid 2bd959ba-3093-4b63-a625-32de38f85129))
+    (pin "2" (uuid ebd3cc3e-76df-4497-89d8-2b2b6c46e722))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5915,7 +5965,7 @@
     (property "Datasheet" "" (at 143.51 308.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 47b16509-d696-46bd-82b4-2d82ff14f839))
+    (pin "1" (uuid 62268b72-f51e-4ad4-aaa2-8fd2f2fc4815))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -5953,7 +6003,7 @@
     (property "Datasheet" "" (at 133.35 210.82 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid c68203f4-b419-4236-a9f2-57d695191433))
+    (pin "1" (uuid f6967c44-3aa2-4373-a530-b3a3e431323b))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -5978,7 +6028,7 @@
     (property "Datasheet" "" (at 166.37 308.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4da02ec1-0712-4a85-9aeb-d6e5ffbccea7))
+    (pin "1" (uuid 09e6d955-faa2-4d63-bab2-9609a1c238b6))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6016,7 +6066,7 @@
     (property "Datasheet" "" (at 201.93 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eaee4126-1f7c-4309-934f-726bbec48031))
+    (pin "1" (uuid b4a7a838-f0c5-457f-82bd-a74520dc94aa))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6033,7 +6083,7 @@
           (reference "#PWR026") (unit 1)
         )
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0259") (unit 1)
+          (reference "#PWR0258") (unit 1)
         )
       )
     )
@@ -6054,8 +6104,8 @@
     (property "Datasheet" "~" (at 153.67 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ae82ea3-1208-47f2-bd0a-1c5b6bc349e0))
-    (pin "2" (uuid 98f6a271-5d7b-4332-80dc-06b7ba4cd618))
+    (pin "1" (uuid bf43d44a-b887-4c18-9a20-8a8946523937))
+    (pin "2" (uuid c62bb2bc-9d8f-451b-b042-e939540b0d9c))
     (instances
       (project "gateway-LoRa-T1L"
         (path "/9b3c58a7-a9b9-4498-abc0-f9f43e4f0292"
@@ -6088,7 +6138,7 @@
     (property "Datasheet" "" (at 85.09 279.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e47ea260-160c-4a0a-a8cf-6ff050bdccfd))
+    (pin "1" (uuid 0d22d801-b54d-417f-9ddf-26eb615440c1))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -6113,7 +6163,7 @@
     (property "Datasheet" "" (at 205.74 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0d76affe-52a2-4687-946e-d0ab58ca3700))
+    (pin "1" (uuid debbc0f8-6244-48de-b95f-76a8396a35fe))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6130,7 +6180,7 @@
           (reference "#PWR027") (unit 1)
         )
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0260") (unit 1)
+          (reference "#PWR0259") (unit 1)
         )
       )
     )
@@ -6151,7 +6201,7 @@
     (property "Datasheet" "" (at 163.83 316.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 954d91aa-17fb-4c40-9d51-0b5e96f32d60))
+    (pin "1" (uuid c57a1085-5360-4eb8-a2c3-2a35ea5312f7))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -6176,7 +6226,7 @@
     (property "Datasheet" "" (at 115.57 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e784e551-945e-4a7f-be68-d600908393f0))
+    (pin "1" (uuid 6fcb6ddf-d7ed-44ed-85d9-2d0095f3bbef))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6214,7 +6264,7 @@
     (property "Datasheet" "" (at 162.56 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 28746407-2639-4503-a3f0-80a95127172c))
+    (pin "1" (uuid d618536a-527f-4ca6-b2e6-f6417df29546))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -6239,8 +6289,8 @@
     (property "Datasheet" "~" (at 140.97 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ce034c85-7665-476d-acca-f50e64770372))
-    (pin "2" (uuid 95a6da6e-b346-4ce2-b5b3-b3241c7c3460))
+    (pin "1" (uuid 4305798e-f9a8-4ada-b795-6237ea52b55f))
+    (pin "2" (uuid 396d14d1-7ab5-401d-9fdc-2b939f532f6c))
     (instances
       (project "gateway-LoRa-T1L"
         (path "/9b3c58a7-a9b9-4498-abc0-f9f43e4f0292"
@@ -6273,7 +6323,7 @@
     (property "Datasheet" "" (at 140.97 328.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ec644eb6-805c-43e6-a38e-b7a4f1afdf02))
+    (pin "1" (uuid 4879adff-e5b6-4796-b6a1-43730abb0ab2))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6311,8 +6361,8 @@
     (property "Datasheet" "~" (at 74.93 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 412b5de2-c6eb-4bc2-8d9b-3af57cd26102))
-    (pin "2" (uuid ce12b19e-8be1-40c4-b519-ca486bbfeb0c))
+    (pin "1" (uuid 8f96d6a1-ba62-4ba4-b18c-deaf3d5f6938))
+    (pin "2" (uuid 49680769-a701-4776-8fc3-5b5f848a754e))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -6337,7 +6387,7 @@
     (property "Datasheet" "" (at 73.66 281.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5c08b9ac-4cf9-4d97-8ec2-bf176a4cbe91))
+    (pin "1" (uuid c75c1759-965e-433d-bae2-4078dfaf78b4))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6375,8 +6425,8 @@
     (property "Datasheet" "~" (at 214.63 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1ac46048-eece-4613-8dc9-5bc8d2c6ce14))
-    (pin "2" (uuid 4c86067d-8b49-41fc-b240-c53c0171f2b1))
+    (pin "1" (uuid 435f1f8a-218f-4459-a9e2-7cd0e3bc6ff4))
+    (pin "2" (uuid 0e003f0a-76c2-4771-9ad6-82ab04db3b4b))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6393,7 +6443,7 @@
           (reference "C18") (unit 1)
         )
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C226") (unit 1)
+          (reference "C221") (unit 1)
         )
       )
     )
@@ -6414,8 +6464,8 @@
     (property "Datasheet" "~" (at 170.18 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fba98735-f9f4-4223-8c79-41c0ba8db0b1))
-    (pin "2" (uuid dd24fd15-dc54-4980-9abd-44c92a99509d))
+    (pin "1" (uuid 2208a2c9-92d4-4b64-83a1-8cd35ad8b5ac))
+    (pin "2" (uuid c5f61361-4aea-49aa-bcff-51becd58100f))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -6440,7 +6490,7 @@
     (property "Datasheet" "" (at 220.98 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 64b1ad0c-7b09-471f-bf87-b978ed7f3f48))
+    (pin "1" (uuid 434bf741-40fd-45da-9882-c44c307a7f50))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6457,7 +6507,7 @@
           (reference "#PWR027") (unit 1)
         )
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0267") (unit 1)
+          (reference "#PWR0266") (unit 1)
         )
       )
     )
@@ -6478,7 +6528,7 @@
     (property "Datasheet" "" (at 177.8 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9766c885-1d51-44a7-a18b-33d76eb58450))
+    (pin "1" (uuid 2157196e-c23a-4274-8332-11f2feac29e1))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -6503,7 +6553,7 @@
     (property "Datasheet" "" (at 91.44 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e91754fe-7e77-4246-8ae0-75e9316350cd))
+    (pin "1" (uuid bf7a836d-ce3c-4551-813b-d90ff61721a8))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6532,8 +6582,8 @@
     (property "Reference" "IC1" (at 116.84 236.22 90)
       (effects (font (size 2.54 2.54)))
     )
-    (property "Value" "W5300" (at 115.57 242.57 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "W5300" (at 118.11 243.84 90)
+      (effects (font (size 2.54 2.54) bold))
     )
     (property "Footprint" "Project_Specific_Wiznet:QFP50P1600X1600X160-100N" (at 121.92 242.57 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
@@ -6562,106 +6612,106 @@
     (property "Arrow Price/Stock" "" (at -828.55 331.47 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 088c1e25-063e-413e-906d-80fe923da287))
-    (pin "10" (uuid cd6e5688-979d-453b-958b-9a9b7976cc41))
-    (pin "100" (uuid 6de8df02-167a-4c82-b4d8-4094a9b25c2d))
-    (pin "11" (uuid 9fd22bcf-b959-4e9d-9c78-c6e74fa07b47))
-    (pin "12" (uuid 993faa8d-3a48-47fe-ac09-2d01d67de182))
-    (pin "13" (uuid a522f93c-118f-4a77-ae60-e8ba4d4738df))
-    (pin "14" (uuid 4af1830d-9349-4252-911c-10efbea6d8e5))
-    (pin "15" (uuid 7eb5a577-366a-4da9-a8dc-2a14e22a7dc9))
-    (pin "16" (uuid 79f9127a-3708-437e-a1ea-827d91f8ba0b))
-    (pin "17" (uuid 4a52d67a-cdfc-4fe7-ad06-4a18c9078ad7))
-    (pin "18" (uuid db102410-427d-4ac5-8d0a-9e6f3db8e88f))
-    (pin "19" (uuid 594c2390-6cda-4669-9e39-42781a6882bd))
-    (pin "2" (uuid 08f605b7-394e-4a78-bc3a-c60b1cdeb0f8))
-    (pin "20" (uuid 3acfc327-0795-4f38-9636-928fa429cfd1))
-    (pin "21" (uuid 4a92124b-2856-44a5-bdac-f1abca121eeb))
-    (pin "22" (uuid 05051ca8-f595-4ead-a14d-ff334c6c4f54))
-    (pin "23" (uuid 2c800bbb-e6ce-49e7-a3f7-b2b899353488))
-    (pin "24" (uuid 7c4ca72d-9b71-46bf-b861-d3b709117c76))
-    (pin "25" (uuid e412756d-eef8-4337-8e66-c7b554d780c6))
-    (pin "26" (uuid 383711e2-017b-4275-a0a8-bfa07887361b))
-    (pin "27" (uuid 4cc02302-13e6-4f2a-86e5-aebe7fe50e9a))
-    (pin "28" (uuid 9175c0ed-df5b-4bf5-8e2a-86277988af1e))
-    (pin "29" (uuid 32e05a4c-cc41-48dd-a7c1-17d557a2b052))
-    (pin "3" (uuid d4a23011-7f02-434d-b5fd-a32a32ac63f6))
-    (pin "30" (uuid 7ae8e35d-214b-4fa5-b43d-553853d8a66a))
-    (pin "31" (uuid 79f4f49c-e395-4af3-97e1-e8f48b6aeb7c))
-    (pin "32" (uuid b11ceee8-f003-4e70-be74-ee85e8a5c7a8))
-    (pin "33" (uuid a89ebd0b-5822-4375-ad30-b5fa9ee7c954))
-    (pin "34" (uuid c8ff8163-40f5-4646-bfb7-80a8f6dade6c))
-    (pin "35" (uuid 47db8ba4-b48f-4637-ad14-add0a9a166c8))
-    (pin "36" (uuid a4eabfd7-38d2-4be9-94a8-649925609f4e))
-    (pin "37" (uuid 663b7762-8761-45e8-b647-8ab087a08651))
-    (pin "38" (uuid e53beb1b-9013-4ca0-94ad-14a551300adf))
-    (pin "39" (uuid e529f126-b69d-4b25-8981-66c3fdbfc24e))
-    (pin "4" (uuid 0b5c4d9d-f78e-4966-bf4f-1c08cd89f6c9))
-    (pin "40" (uuid d476d6a7-cd62-4ea9-9c27-efbaed338e69))
-    (pin "41" (uuid 9d0314ec-cfda-4df3-aa63-c9e18f3fd628))
-    (pin "42" (uuid 9fd2f9f4-7398-4d74-887f-35db2e946b33))
-    (pin "43" (uuid 5de7ba2b-b036-41cc-bbf6-2dc534a48f78))
-    (pin "44" (uuid 0fc62e24-8f91-4330-8b65-17e88d5e6b7e))
-    (pin "45" (uuid 53e0f2ed-10fb-4414-8309-ef5ae5d9a16f))
-    (pin "46" (uuid 0f397d58-abff-45a0-a71d-67bff2e26b3e))
-    (pin "47" (uuid 00a723ab-6730-4d7e-a34f-73d27684b9af))
-    (pin "48" (uuid d58a93e2-628b-44a8-a69d-d1515ff6f1bf))
-    (pin "49" (uuid caf6b2a8-e7fe-48a4-b0c4-c9c37dd297da))
-    (pin "5" (uuid 1561b691-d167-4c54-ada3-0bb885ff5db4))
-    (pin "50" (uuid aedb6f8f-b41d-49cb-adfc-107617ea20c5))
-    (pin "51" (uuid 021f3977-82b4-4ecc-9ed7-cc2b87bb069f))
-    (pin "52" (uuid 309f4522-5899-4607-85fb-355f546ff80c))
-    (pin "53" (uuid 55bc4184-c521-4d93-ab90-b69508ebab28))
-    (pin "54" (uuid 5ea071a3-a194-4142-95c6-f9f25c8a68fa))
-    (pin "55" (uuid 68c751a5-19f1-4c20-982d-f8faaf45b8c7))
-    (pin "56" (uuid 38da2907-931a-4a06-b917-0302054b49d8))
-    (pin "57" (uuid 933298dd-2945-4112-8394-2c308930d1a6))
-    (pin "58" (uuid df94233e-9b68-4472-85b8-293da8b4da01))
-    (pin "59" (uuid 6707a564-562e-40f5-9bd5-997f7080c2fe))
-    (pin "6" (uuid 1ac53f64-a262-4068-b5bc-1c36dd1c4b61))
-    (pin "60" (uuid 87137036-7345-43ff-bcf3-f28c5aab8b5b))
-    (pin "61" (uuid 761042b4-e63a-4122-a864-aeffbdafa25e))
-    (pin "62" (uuid f0e4a36d-93cc-478d-a437-87ee3bcf8cc1))
-    (pin "63" (uuid 8f7e818f-04e6-4189-82c5-0ac6d58fd6cc))
-    (pin "64" (uuid 26555bdd-4efb-4af9-b20e-e7fcf7e2cf60))
-    (pin "65" (uuid 709d651f-d49b-4da0-a68c-7e3fc5a9f1d8))
-    (pin "66" (uuid 5968f3e8-43ba-459e-bba7-a300e84d3ac5))
-    (pin "67" (uuid b3eecff3-0c93-44a4-9b3d-4338fc94ca27))
-    (pin "68" (uuid e2276c39-1075-47c4-9026-7854d02235bd))
-    (pin "69" (uuid 548df91b-259b-43d1-94f1-1b8624231997))
-    (pin "7" (uuid f535ee8b-553a-4aae-95a8-e926156a7764))
-    (pin "70" (uuid e37e045e-0909-4e87-b533-3299eaaaf6c9))
-    (pin "71" (uuid fe7bd6c5-d5bd-468e-9ff5-c96c939db858))
-    (pin "72" (uuid d35e2902-7ba9-4d3f-a1a0-216251b14955))
-    (pin "73" (uuid b4fef32f-532f-443b-9e8e-06cd08d5d145))
-    (pin "74" (uuid 40cc322a-8fd4-47d5-9d60-ac0851b9ab13))
-    (pin "75" (uuid f9a5808a-befc-409e-bdf4-62278d78796c))
-    (pin "76" (uuid daa50833-c3b5-448f-8524-72fcf3ea32a4))
-    (pin "77" (uuid 4ff103d6-608e-4884-be62-a90c0f6e4f79))
-    (pin "78" (uuid 8bf3553e-af9b-4109-9215-dad3fe0008c7))
-    (pin "79" (uuid 502e032a-0933-4901-abc7-961cfbeaac12))
-    (pin "8" (uuid 78e6dac9-79da-47d1-ab90-8383f9270955))
-    (pin "80" (uuid 8203e639-4b6a-4350-84d3-6cac1ed8ccf5))
-    (pin "81" (uuid b0d34735-f58d-4d7c-8e36-482f033ffe7e))
-    (pin "82" (uuid 93a4ae69-de5c-41aa-80c5-64121e900a91))
-    (pin "83" (uuid edd3bab7-ac2c-4673-bb0a-f1f84601498e))
-    (pin "84" (uuid 49c479be-6483-484f-ab5a-700980dd7e00))
-    (pin "85" (uuid e7ca336a-e04f-4f11-9d53-6a402a83c446))
-    (pin "86" (uuid 9b907bdb-2c74-4052-b366-a1e101e43f96))
-    (pin "87" (uuid ddba4854-4f9d-4c53-9764-273fabd75e9e))
-    (pin "88" (uuid 8fc028f5-25e2-4e27-96b0-cfa146fcd6f6))
-    (pin "89" (uuid 2173151b-05e8-4a17-a5a7-8670e3a80a3a))
-    (pin "9" (uuid d6106d22-23f5-4790-b4c7-146dc246af64))
-    (pin "90" (uuid 9d375da0-af9f-4d77-88f5-3a055f2f529f))
-    (pin "91" (uuid 4af1c6ac-b9d9-426c-a429-8427edaeb2ff))
-    (pin "92" (uuid 62f2d6eb-aad0-4782-90b8-bf31742069a2))
-    (pin "93" (uuid 45afb753-4d4d-4099-88a8-742cf20fd860))
-    (pin "94" (uuid e4411baf-0712-428e-a8e4-288ba7ba7f2e))
-    (pin "95" (uuid 5fb43238-c1ab-46e4-959b-42a64e0ad7fa))
-    (pin "96" (uuid 75af70b8-8980-47e3-93cf-51e45678b6b9))
-    (pin "97" (uuid 60bc074f-279d-4bd0-85d0-c168903908cd))
-    (pin "98" (uuid fa5c7cb5-9f45-49da-91ac-9025556152b1))
-    (pin "99" (uuid aa65f4ef-cc7c-4044-ba1a-2147b563c7ef))
+    (pin "1" (uuid 0fdb2e26-6f00-4b2c-9219-44593f844f91))
+    (pin "10" (uuid 01de2549-5843-4855-95bb-8f254a403a08))
+    (pin "100" (uuid cb7d703b-9876-493f-b83a-0de0fb6df129))
+    (pin "11" (uuid d111e59c-b06d-471f-8969-0eee7342d003))
+    (pin "12" (uuid d3289b2a-145e-4c52-b4cc-81affb320b2b))
+    (pin "13" (uuid 4da5faeb-5177-48f6-87b6-3385a5c155e7))
+    (pin "14" (uuid 57399025-af1a-44f0-a6ef-340ba8759bf9))
+    (pin "15" (uuid a4a73945-1045-4d6f-bbcb-bbe0b57eefac))
+    (pin "16" (uuid e53106f9-ebb1-4967-bfcf-b94cb48549ab))
+    (pin "17" (uuid 33d8d9f3-d4ad-4901-b7e2-f7bd4e95a494))
+    (pin "18" (uuid 2b9ac305-9a4a-4cfc-a6a5-c24ca97aeba4))
+    (pin "19" (uuid a4b20f95-8d1e-402f-8f0e-11416e524fc8))
+    (pin "2" (uuid 49e48401-5372-4295-858a-c2933db5f2c1))
+    (pin "20" (uuid f3c3bb49-6e5a-49f9-9faf-86b711ebff3b))
+    (pin "21" (uuid 292097dd-05d1-49e8-8118-bd74680e8556))
+    (pin "22" (uuid 36f3ffbb-42e1-430c-8bd5-898108a2ce4a))
+    (pin "23" (uuid 7f5829c1-d209-4471-aa92-7a6064b73ac4))
+    (pin "24" (uuid e3f404a0-f307-48e5-bcf9-e78ee8d9812a))
+    (pin "25" (uuid 4db0b810-cb18-4094-baff-1c20a03fdcb5))
+    (pin "26" (uuid 39e98d67-383d-4ddd-a7b7-e31ac1ea9044))
+    (pin "27" (uuid b66e0954-dc78-4210-af20-c7f048558943))
+    (pin "28" (uuid 38aac4ca-630c-4ea9-8c9c-33ab225208ce))
+    (pin "29" (uuid 76a97597-6e71-4b91-9e86-4dd8c2cafb06))
+    (pin "3" (uuid 4c3620a7-8de3-4572-85b7-5201cf09b79f))
+    (pin "30" (uuid ea0996dc-8e11-42a3-8c87-bf741348bd8e))
+    (pin "31" (uuid ff1a9a56-dde1-4d9e-9027-4a7b5175a03e))
+    (pin "32" (uuid 819219c5-d9a8-4899-96ca-acd132e2127f))
+    (pin "33" (uuid 9e11c65b-312e-44f4-aa48-14e19b497aee))
+    (pin "34" (uuid 4f1135a6-88ca-44db-93ed-1cf8a235dfd9))
+    (pin "35" (uuid 51ccaf74-59d0-4d3a-9eb9-f5bce514b595))
+    (pin "36" (uuid c9879885-6683-4de5-81cc-8409295bca25))
+    (pin "37" (uuid f70fc05c-8256-46f3-940b-cf47b527984a))
+    (pin "38" (uuid 41b34c71-b57f-4855-8b8e-200a3f4567dd))
+    (pin "39" (uuid b3fadf7b-278c-4cbd-9b55-63b99dae8b0d))
+    (pin "4" (uuid 7c5270cd-7ad8-45b3-be12-244f13fda505))
+    (pin "40" (uuid f26ce6e0-7711-4d39-9ed5-b21b424e4d8f))
+    (pin "41" (uuid 39b26f8a-afce-4f1b-bbf1-471c54b70df7))
+    (pin "42" (uuid dec2687d-51bf-47e2-b0bc-9c31d9b53508))
+    (pin "43" (uuid 313492f6-333c-451f-a88c-ecc6b57cce09))
+    (pin "44" (uuid 4e05e57a-c99b-40db-90d4-ccf50b849e2b))
+    (pin "45" (uuid 81da12af-fa33-48ba-b658-30e633b37098))
+    (pin "46" (uuid caa9f7e3-8153-43c3-a434-6f2abd90b849))
+    (pin "47" (uuid 4601f7c8-c330-4164-878e-570bd528523f))
+    (pin "48" (uuid 8d7266bd-f5bf-4020-a727-13bdcbb858c1))
+    (pin "49" (uuid a4282458-1736-499f-9e40-9c56829823ac))
+    (pin "5" (uuid 9946cac6-391c-4ce7-bf6d-040b17e6c9b7))
+    (pin "50" (uuid 49813698-1724-40e3-a122-dc92c5c46348))
+    (pin "51" (uuid 929cfbf5-30a8-47b2-9cf4-b3642bfc2eed))
+    (pin "52" (uuid 7c72f131-0426-4a6c-8b2d-588606b24131))
+    (pin "53" (uuid 27b12588-933d-417d-87fa-cca651285392))
+    (pin "54" (uuid 62e615aa-3f6b-46bd-978e-46cfc3f1e822))
+    (pin "55" (uuid b71d127e-a4a4-4c51-ba74-3d189f0900f4))
+    (pin "56" (uuid bf4c981a-c98a-4e23-bbfa-a1c22184b606))
+    (pin "57" (uuid f33c566b-2e04-44ba-9905-88c35266c743))
+    (pin "58" (uuid 6f8ee51b-aa88-4588-9fd5-25798e019e1f))
+    (pin "59" (uuid 6615537f-31e6-4e17-bde5-68cc7502912d))
+    (pin "6" (uuid feca1f70-c75c-42d9-aea5-e89d74a6738c))
+    (pin "60" (uuid 4750020d-2624-483b-95eb-0735b62fc923))
+    (pin "61" (uuid 75e5dda8-242e-400c-8e62-a67f2dfadace))
+    (pin "62" (uuid d4c4cb8f-87c0-4c83-bf9a-21a8c809d2d0))
+    (pin "63" (uuid be5380f0-dff5-496e-b9ac-a9dc4c1c90e0))
+    (pin "64" (uuid 4b6616c3-910f-4258-9701-d1edc8a4c0ba))
+    (pin "65" (uuid 4b5fb1b4-4d79-44f9-8477-693bc6749906))
+    (pin "66" (uuid ba82f7e3-0b21-4592-b260-42bc5a729be6))
+    (pin "67" (uuid 60304f5c-bb2b-44de-9b61-46e85ef3aef2))
+    (pin "68" (uuid 2400a5bb-5939-4cf6-a329-e94fc3354b2c))
+    (pin "69" (uuid 8567b289-50dd-4ec2-baf7-68f006061fa0))
+    (pin "7" (uuid 37c231be-cd6e-4b6d-9a86-194d188c215d))
+    (pin "70" (uuid 1284810b-b3e8-49b7-9122-27e00016fbee))
+    (pin "71" (uuid aba9f4a7-5ec7-46f3-9fcc-0280af36622b))
+    (pin "72" (uuid 2ec8f1d3-84fc-4b49-8fec-1a23c48330ea))
+    (pin "73" (uuid 614901eb-99e7-43ea-ad3e-d545c11977a3))
+    (pin "74" (uuid c16a62d8-cdf0-435d-8b79-a3d9dc7bb464))
+    (pin "75" (uuid 4861e8c8-fa64-415d-ba7e-ead9ec4914a1))
+    (pin "76" (uuid 72100672-7a82-4c04-a2e9-b950587a07ae))
+    (pin "77" (uuid f3eee107-2acb-4862-8f57-7e29bac3dbc2))
+    (pin "78" (uuid c7147fb0-3d6d-436e-b989-e0b027a92333))
+    (pin "79" (uuid b6f5830c-bbff-4f3a-bac0-45ee7373878c))
+    (pin "8" (uuid 03eb990f-66b7-49df-abaf-ae23d899b974))
+    (pin "80" (uuid 73e6c3ac-ede3-4c89-b05c-3141aa0ce19c))
+    (pin "81" (uuid 52eefed8-e717-485c-bf8f-f2a4d5bdad98))
+    (pin "82" (uuid 1fe07a92-7c32-4099-aa4f-2fec1d80ffd3))
+    (pin "83" (uuid 8f94f860-f197-41e7-a57f-5ccd335f4b5f))
+    (pin "84" (uuid 8fc84eef-4925-4a13-acb4-bc8e85749782))
+    (pin "85" (uuid 4ad60e5b-4755-4466-9bda-838d618a53bc))
+    (pin "86" (uuid bbe57010-9183-4fb0-a49d-1e2d5c8f15c9))
+    (pin "87" (uuid 2d3a5a8e-be42-46e8-b46c-146c7c07bfb1))
+    (pin "88" (uuid 9f97f173-ef52-4824-9657-83ce9b633dd9))
+    (pin "89" (uuid aff8a98b-9d36-46aa-ac4e-15bfb2adb0ab))
+    (pin "9" (uuid ba85e774-0623-4194-9d35-1cc8630c746b))
+    (pin "90" (uuid b8fe5e3e-f6ad-40e3-b246-ecc380a3c631))
+    (pin "91" (uuid 983969a3-5fe4-45c9-9284-ce7c561aa5ab))
+    (pin "92" (uuid 387ad523-7c5a-4b2c-92d7-727b54ed0b2a))
+    (pin "93" (uuid 298d62d3-1069-48d8-81ee-2ecc7290616b))
+    (pin "94" (uuid b31beb49-ce9f-4841-80a4-6cf35f5562a7))
+    (pin "95" (uuid 414ef157-fcd7-497a-9b06-106f9950631d))
+    (pin "96" (uuid 40c79af8-3cf4-4af9-8c08-7e85bf2daffa))
+    (pin "97" (uuid 3754ba17-9962-47ba-aa4b-234ae09bf2e5))
+    (pin "98" (uuid c708c27a-ee0b-47d7-a189-c0d83afbb098))
+    (pin "99" (uuid 15339922-d06d-457d-9a07-e0dfad4905f3))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/112abf80-ddd9-4eaa-862b-ab7db8cc371e"
@@ -6674,26 +6724,26 @@
     )
   )
 
-  (symbol (lib_id "Project_Specific_Power:ETH_GNDA") (at 186.69 101.6 0) (unit 1)
+  (symbol (lib_id "Project_Specific_Power:ETH_GNDA") (at 227.33 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a071daf0-b8e7-4caa-be98-c64a2816467e)
-    (property "Reference" "#PWR0255" (at 186.69 107.95 0)
+    (property "Reference" "#PWR0268" (at 227.33 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "ETH_GNDA" (at 186.69 104.5972 0)
+    (property "Value" "ETH_GNDA" (at 227.33 90.6272 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 186.69 101.6 0)
+    (property "Footprint" "" (at 227.33 87.63 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 186.69 101.6 0)
+    (property "Datasheet" "" (at 227.33 87.63 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid 6aad522d-d6ff-41f5-a86b-dedc73d09077))
+    (pin "1" (uuid c45bcf14-a0d9-4b17-8cad-be9bd6b42928))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0255") (unit 1)
+          (reference "#PWR0268") (unit 1)
         )
       )
     )
@@ -6714,7 +6764,7 @@
     (property "Datasheet" "" (at 177.8 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 01fa076e-abb7-4395-aa0a-b4e8b3bb12d1))
+    (pin "1" (uuid 00c1b8f9-fc8f-441a-a75d-864a24d96e31))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -6727,7 +6777,7 @@
   (symbol (lib_id "Device:C") (at 172.72 152.4 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5abe41f-9f8a-442a-baa4-6f9255f5a8b2)
-    (property "Reference" "C218" (at 174.625 152.4 0)
+    (property "Reference" "C217" (at 174.625 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 170.815 152.4 0)
@@ -6739,12 +6789,12 @@
     (property "Datasheet" "~" (at 172.72 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 64ec2bf2-7bdd-4ce1-8515-bba37653514b))
-    (pin "2" (uuid 04317676-b13f-4d77-b600-352dcefd589f))
+    (pin "1" (uuid f4c27bf8-aeea-4ea4-86b5-f43fc2d43e3f))
+    (pin "2" (uuid 2577bc4b-e814-4396-b3c7-287a816efad9))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C218") (unit 1)
+          (reference "C217") (unit 1)
         )
       )
     )
@@ -6753,7 +6803,7 @@
   (symbol (lib_id "Project_Specific_Power:+1V8D") (at 205.74 243.84 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a970dce8-add1-4c36-9337-f19c9d17f8e2)
-    (property "Reference" "#PWR0261" (at 201.93 243.84 0)
+    (property "Reference" "#PWR0260" (at 201.93 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8D" (at 209.296 243.84 0)
@@ -6765,11 +6815,11 @@
     (property "Datasheet" "" (at 205.74 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 77476a83-82d6-4637-b95d-48f7512e9af8))
+    (pin "1" (uuid a7ebedb9-737d-465a-bb69-f2673ebafc1f))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0261") (unit 1)
+          (reference "#PWR0260") (unit 1)
         )
       )
     )
@@ -6790,7 +6840,7 @@
     (property "Datasheet" "" (at 72.39 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b12e152-0330-453d-bccb-4dd5029253d1))
+    (pin "1" (uuid f6e64f5c-5e2a-470d-8149-bca262e35e03))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6828,7 +6878,7 @@
     (property "Datasheet" "" (at 85.09 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5afcac79-bfc7-4284-88a5-a217a522abd9))
+    (pin "1" (uuid 9cdeed09-73d6-499f-b1e9-3b065deb3e69))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -6853,8 +6903,8 @@
     (property "Datasheet" "~" (at 137.16 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 16af9395-c1a3-4eb3-b5f8-f4c3eb5db015))
-    (pin "2" (uuid 4d7f9b43-6e23-4282-a568-08e923c549c0))
+    (pin "1" (uuid df149de1-c8b2-414c-86dd-bdba46442587))
+    (pin "2" (uuid ac3c6751-f51f-45db-9476-71f811a148c9))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -6879,10 +6929,10 @@
     (property "Datasheet" "~" (at 205.74 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1a5a67f1-064f-4aa4-b618-5b1e67a85173))
-    (pin "2" (uuid a22f767b-3a7d-4364-88fb-b9611c677803))
-    (pin "3" (uuid ce2a7112-6d45-4557-96a2-ee12a78cb484))
-    (pin "4" (uuid e2678f2d-6ff5-4dc5-9e50-c88a9bb384ac))
+    (pin "1" (uuid 61de104b-7e5f-4981-af95-c49007175514))
+    (pin "2" (uuid 18a72019-43be-4e3b-9e4f-d6997ecee6e4))
+    (pin "3" (uuid 465f251a-0269-40d5-b454-fb36d34bb44c))
+    (pin "4" (uuid e672297c-3faa-4f2a-a501-9bcaa28c2c68))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6920,7 +6970,7 @@
     (property "Datasheet" "" (at 171.45 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f8b240ef-d609-475d-84c1-6838d315d4a4))
+    (pin "1" (uuid 8c600a03-ff0a-435f-86f1-684cb5b7c808))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6958,7 +7008,7 @@
     (property "Datasheet" "" (at 190.5 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d82d456-c901-41fc-9a4d-aaf27ecd616a))
+    (pin "1" (uuid 8c2922e2-a3a1-48e0-929f-9cdb5fbfe704))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -6975,7 +7025,7 @@
           (reference "#PWR027") (unit 1)
         )
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0257") (unit 1)
+          (reference "#PWR0256") (unit 1)
         )
       )
     )
@@ -6996,7 +7046,7 @@
     (property "Datasheet" "" (at 146.05 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c756c767-cab6-4722-8ed1-706c7538a44d))
+    (pin "1" (uuid ae9bb3b1-3226-496d-bb5c-ebfc4047cbb4))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -7034,7 +7084,7 @@
     (property "Datasheet" "" (at 135.89 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 532bd4f3-8cc4-40a3-9b05-9c5aaec74321))
+    (pin "1" (uuid 240f3e37-002a-4aad-9aa8-80d194ca0a80))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -7072,8 +7122,8 @@
     (property "Datasheet" "~" (at 77.47 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63dc1c10-6292-4872-bd60-21e0d7d1b376))
-    (pin "2" (uuid a3821c47-a5ed-40e8-8f4f-6a8a62579749))
+    (pin "1" (uuid 797fed38-955a-4b27-b2e4-fb367e2154d7))
+    (pin "2" (uuid 31482131-4f5e-434c-accc-707b37b1b408))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7098,8 +7148,8 @@
     (property "Datasheet" "~" (at 175.26 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ec89964-92e8-4f2b-827a-46613baae9a8))
-    (pin "2" (uuid d5899343-a9a4-422f-bbdb-f0914578f1c8))
+    (pin "1" (uuid 08d06fd7-6eb2-421b-9f9c-c6ac3e26d390))
+    (pin "2" (uuid 0d9b5fdf-6a01-4891-98b1-6ada50345d93))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7124,8 +7174,8 @@
     (property "Datasheet" "~" (at 130.81 325.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4f27fabc-34ff-409d-9afa-918038666c2a))
-    (pin "2" (uuid 73d324ec-097c-4153-9293-afba21080f32))
+    (pin "1" (uuid 7e6ad898-0e4a-49b6-8728-f67d424f89ad))
+    (pin "2" (uuid 523a9930-384f-46dc-a24a-30c493cc57eb))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7135,22 +7185,22 @@
     )
   )
 
-  (symbol (lib_id "Project_Specific_Power:ETH_GNDA") (at 172.72 120.65 0) (unit 1)
+  (symbol (lib_id "Project_Specific_Power:ETH_GNDA") (at 175.26 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9d2fd64-0e7a-44ed-8165-8c61b0a14d65)
-    (property "Reference" "#PWR0252" (at 172.72 127 0)
+    (property "Reference" "#PWR0252" (at 175.26 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "ETH_GNDA" (at 172.72 123.6472 0)
+    (property "Value" "ETH_GNDA" (at 175.26 123.6472 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 172.72 120.65 0)
+    (property "Footprint" "" (at 175.26 120.65 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 172.72 120.65 0)
+    (property "Datasheet" "" (at 175.26 120.65 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid b15062ad-ba61-40bd-b3ba-acd863e638ef))
+    (pin "1" (uuid cdd79323-bd55-42b5-b836-6b865d270684))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7175,7 +7225,7 @@
     (property "Datasheet" "" (at 132.08 151.13 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid f927380b-1375-41ca-868c-5f353a7b2898))
+    (pin "1" (uuid 49dd4933-cfe6-4a0d-8b5b-01210ec8fd4d))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7200,7 +7250,7 @@
     (property "Datasheet" "" (at 220.98 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6344426d-1552-47ae-8f90-b0e047201993))
+    (pin "1" (uuid f4b1c33f-89b7-4767-aee1-fa43108200e7))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -7217,7 +7267,7 @@
           (reference "#PWR027") (unit 1)
         )
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0266") (unit 1)
+          (reference "#PWR0265") (unit 1)
         )
       )
     )
@@ -7238,8 +7288,8 @@
     (property "Datasheet" "~" (at 171.45 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 72646320-5ef3-40d2-a84e-8e33a1dc07b4))
-    (pin "2" (uuid 352cdb5a-801c-400b-bdf0-8e43e5a4605c))
+    (pin "1" (uuid 96d0f0b9-80ae-4943-96cb-aa26deabacb8))
+    (pin "2" (uuid 30cbc46f-32c4-42e6-b787-82a5c482532f))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7249,49 +7299,49 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 193.04 114.3 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 233.68 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d57557e0-08f3-4f35-8ab4-c2bd65692005)
-    (property "Reference" "C221" (at 193.04 112.395 0)
+    (property "Reference" "C226" (at 233.68 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "33n" (at 193.04 116.205 0)
+    (property "Value" "33n" (at 233.68 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 194.0052 118.11 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 234.6452 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 193.04 114.3 0)
+    (property "Datasheet" "~" (at 233.68 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6d5f6428-5460-49ef-85e0-4fcb6aad6468))
-    (pin "2" (uuid 8f46f109-72a2-4494-b4c6-d9f570be7cd5))
+    (pin "1" (uuid 53aaf9e1-6f89-496e-b9f7-fc99c5a1a842))
+    (pin "2" (uuid 7a21fa85-c169-4e32-a002-6192cd9f4db7))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C221") (unit 1)
+          (reference "C226") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C") (at 152.4 115.57 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 149.86 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da9c17c6-49b9-4d04-b964-b737898d902d)
-    (property "Reference" "C213" (at 152.4 113.665 0)
+    (property "Reference" "C213" (at 144.78 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 152.4 117.475 0)
+    (property "Value" "100n" (at 144.78 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 153.3652 119.38 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 150.8252 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 152.4 115.57 0)
+    (property "Datasheet" "~" (at 149.86 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e647b354-a26c-4fdc-aa10-578982083422))
-    (pin "2" (uuid 6364c3d2-59a5-41cc-a151-d9ac63999a6f))
+    (pin "1" (uuid 25c569c6-39f2-4c9a-bebf-0a104bfbaf77))
+    (pin "2" (uuid 90f64372-fe4a-46d0-b617-4ac17c2dccc1))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7316,7 +7366,7 @@
     (property "Datasheet" "" (at 115.57 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e8d36fe6-602e-4f72-a04f-211da457e5a5))
+    (pin "1" (uuid 2763ba86-00cb-4100-af82-37c2448e63e9))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7341,8 +7391,8 @@
     (property "Datasheet" "~" (at 149.86 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 11e3c06d-f505-478c-b58b-9a4e51d1d881))
-    (pin "2" (uuid 38c34ad6-a7d8-4870-906a-4eb89c5fed78))
+    (pin "1" (uuid 5cf418a3-eb4a-4a92-b0bb-c6cd0e16ec19))
+    (pin "2" (uuid c476eecd-c95a-4708-8412-6f2082985b85))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7367,7 +7417,7 @@
     (property "Datasheet" "" (at 209.55 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0d62c6ac-c306-413b-b6b9-558488d49d28))
+    (pin "1" (uuid 60a258a5-6427-4953-a459-b2bfd17a6152))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -7384,7 +7434,7 @@
           (reference "#PWR028") (unit 1)
         )
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0264") (unit 1)
+          (reference "#PWR0263") (unit 1)
         )
       )
     )
@@ -7405,7 +7455,7 @@
     (property "Datasheet" "" (at 142.24 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da7e5182-bae5-48d5-aa98-e52e27852b08))
+    (pin "1" (uuid 209ad5b4-27cf-4084-8df6-7971b26cb015))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7430,7 +7480,7 @@
     (property "Datasheet" "" (at 152.4 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ada8bafe-9c07-400c-946d-118c82ebc6b7))
+    (pin "1" (uuid ce76d231-60ea-4729-a656-11d2be3a6378))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -7468,8 +7518,8 @@
     (property "Datasheet" "~" (at 115.57 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4363d0bd-ce88-46e0-a63e-6227ac699c8b))
-    (pin "2" (uuid c0b736de-9451-4cb0-8d59-be8877b57114))
+    (pin "1" (uuid 8bfb12f9-cac7-433e-8597-459b131ac5f3))
+    (pin "2" (uuid 4d07b232-cd4c-4e36-93d3-3cdcd1afaecf))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7482,7 +7532,7 @@
   (symbol (lib_id "Device:C") (at 172.72 166.37 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4bd47cc-3d28-47b1-b94f-0d14c51eb42e)
-    (property "Reference" "C219" (at 174.625 166.37 0)
+    (property "Reference" "C218" (at 174.625 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 170.815 166.37 0)
@@ -7494,49 +7544,49 @@
     (property "Datasheet" "~" (at 172.72 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da5276e0-e3cc-4665-8a01-283430aeb15b))
-    (pin "2" (uuid f4681639-bdc7-4f0d-8634-a26f89a6a889))
+    (pin "1" (uuid de3c227c-95dc-4638-87bd-50706ca1657a))
+    (pin "2" (uuid 809a50d4-ffa2-42b0-a1fa-a213860f63f1))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "C219") (unit 1)
+          (reference "C218") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Project_Specific_Wiznet:RB1-125BAG1A") (at 144.78 62.23 270) (mirror x) (unit 1)
+  (symbol (lib_id "Project_Specific_Wiznet:RB1-125BAG1A") (at 144.78 48.26 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8ae8c17-c25c-481a-a866-40f7e6aeeb49)
-    (property "Reference" "P201" (at 185.42 53.34 0)
+    (property "Reference" "P201" (at 185.42 39.37 0)
       (effects (font (size 3 3)) (justify left))
     )
-    (property "Value" "RB1-125BAG1A" (at 104.14 77.47 0)
+    (property "Value" "RB1-125BAG1A" (at 104.14 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Project_Specific_Wiznet:WIZNET_RB1-125BAG1A" (at 144.78 62.23 0)
+    (property "Footprint" "Project_Specific_Wiznet:WIZNET_RB1-125BAG1A" (at 144.78 48.26 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Datasheet" "" (at 144.78 62.23 0)
+    (property "Datasheet" "" (at 144.78 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MANUFACTURER" "WIZnet" (at 144.78 62.23 0)
+    (property "MANUFACTURER" "WIZnet" (at 144.78 48.26 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "L1" (uuid 649923b0-b032-4089-b6a9-fffae021721b))
-    (pin "L2" (uuid 22ed388a-2808-4c8a-8953-ec13bc9dc54e))
-    (pin "L3" (uuid c62dd369-724e-481a-8841-5e95db723bc8))
-    (pin "L4" (uuid 15d7d75a-7184-407c-a491-f0e797bd28d4))
-    (pin "R1" (uuid a5ba91f8-1a23-4b48-9c81-eb86a5f33b19))
-    (pin "R2" (uuid 759e267d-2f2d-4225-b25b-3ef5be8ad70d))
-    (pin "R3" (uuid 86bb5db4-bb45-4add-bce5-3f1737e09168))
-    (pin "R4" (uuid 60e0862f-3de5-4dc8-b625-d52f26e0d531))
-    (pin "R5" (uuid 1f7da49b-3a55-4a5b-83c9-0b443d49f164))
-    (pin "R6" (uuid da7fd446-f153-4f47-b3a6-5d130ebbb1c6))
-    (pin "R7" (uuid cc0e3b12-1215-4312-a7e3-01f8840b78e4))
-    (pin "R8" (uuid 7b1d4266-1f87-4a96-ba50-a406a9431b08))
-    (pin "S1" (uuid 329b8c50-d3fe-4f6b-9582-0cf3c7111aa3))
-    (pin "S2" (uuid e1297693-ae89-4645-8da2-3c7147b60b7e))
+    (pin "L1" (uuid b1d9891a-53f6-4504-8687-9b42f17909f9))
+    (pin "L2" (uuid aa6279be-3404-4c0f-98a1-241bd4edec99))
+    (pin "L3" (uuid dd5a5349-7d10-4c7c-9164-e2f88ca22012))
+    (pin "L4" (uuid 8e317fc7-c4d5-4c54-b738-9a0995c9e308))
+    (pin "R1" (uuid d32e5dc0-ac67-49e9-8024-2dafb2c347b2))
+    (pin "R2" (uuid 1cc2fc60-c6ec-4e92-84fc-813b35444fb0))
+    (pin "R3" (uuid a3b7c1a8-34cd-42da-888b-ee34bc4dbac9))
+    (pin "R4" (uuid 234bcea6-c326-42c5-b0b7-53da2e5741d3))
+    (pin "R5" (uuid 03e676f5-1a94-4d8a-a481-b965a74a91f0))
+    (pin "R6" (uuid 2ba6d5ae-a2a3-4eaf-b965-25a5547c1a8c))
+    (pin "R7" (uuid a2a57bd4-70e3-40f4-94f8-0a35c6841130))
+    (pin "R8" (uuid 45042d66-2378-4d98-afed-d6cfe4f471b9))
+    (pin "S1" (uuid e2460c12-db4c-413e-a239-b1c9092aaafd))
+    (pin "S2" (uuid 95fc6696-f589-4a71-b0e6-f2e52256fb14))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7561,8 +7611,8 @@
     (property "Datasheet" "~" (at 132.08 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 73d2da71-e7f2-47cd-8917-dc340b7b23db))
-    (pin "2" (uuid c0816bf9-885d-472f-b6c8-f979a13e31c1))
+    (pin "1" (uuid 0302a698-cd23-4eae-b640-7f1bbadf2ae3))
+    (pin "2" (uuid e10196ec-66ff-4469-9396-b420a3c617f9))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7587,7 +7637,7 @@
     (property "Datasheet" "" (at 168.91 175.26 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid 21ea9742-69d3-4e73-87a7-2825d2b13182))
+    (pin "1" (uuid 21e3e7e1-c198-4ee1-9edc-e8f199df953f))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7612,8 +7662,8 @@
     (property "Datasheet" "~" (at 176.53 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4bf1e336-da4e-4f60-8b05-37a16838ddb1))
-    (pin "2" (uuid 73d3c144-ee07-4cb7-ace0-a698f8590c77))
+    (pin "1" (uuid 085f760f-0822-4630-945b-b1da57db8c7b))
+    (pin "2" (uuid b2922c5f-db09-40c8-b36f-791ee8e16455))
     (instances
       (project "gateway-LoRa-T1L"
         (path "/9b3c58a7-a9b9-4498-abc0-f9f43e4f0292"
@@ -7631,22 +7681,22 @@
     )
   )
 
-  (symbol (lib_id "Project_Specific_Power:ETH_GNDA") (at 101.6 43.18 270) (unit 1)
+  (symbol (lib_id "Project_Specific_Power:ETH_GNDA") (at 101.6 29.21 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0d70950-e969-4863-a32f-a9e759349b61)
-    (property "Reference" "#PWR0210" (at 95.25 43.18 0)
+    (property "Reference" "#PWR0210" (at 95.25 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "ETH_GNDA" (at 98.6028 43.18 0)
+    (property "Value" "ETH_GNDA" (at 98.6028 29.21 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "" (at 101.6 43.18 0)
+    (property "Footprint" "" (at 101.6 29.21 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 101.6 43.18 0)
+    (property "Datasheet" "" (at 101.6 29.21 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid eaeb8f2b-67da-49b1-afb3-bc3c5a21f291))
+    (pin "1" (uuid 7a918419-178e-4074-b82d-f786fb5f3173))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
@@ -7671,7 +7721,7 @@
     (property "Datasheet" "" (at 220.98 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9553a7ca-8b9c-4ec6-9628-eb3881190b45))
+    (pin "1" (uuid 7d4c2ea4-0163-4d54-8e08-96aff64c4c77))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -7688,7 +7738,7 @@
           (reference "#PWR027") (unit 1)
         )
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
-          (reference "#PWR0268") (unit 1)
+          (reference "#PWR0267") (unit 1)
         )
       )
     )
@@ -7709,7 +7759,7 @@
     (property "Datasheet" "" (at 137.16 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d63164e4-09d4-4eb0-aee8-c6ba21a486a3))
+    (pin "1" (uuid 96a3f10a-513e-491b-b135-26856d12a4aa))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -7747,7 +7797,7 @@
     (property "Datasheet" "" (at 128.27 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f8f04671-74ae-41c3-b75a-cc44c8f5ae39))
+    (pin "1" (uuid 15059134-29d8-4d5b-ad02-f30147c10b5d))
     (instances
       (project "Ethernet"
         (path "/9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45"
@@ -7785,7 +7835,7 @@
     (property "Datasheet" "" (at 163.83 210.82 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (pin "1" (uuid 4ed23344-a1ec-4d58-91cc-6b189ef80340))
+    (pin "1" (uuid 5d35d7da-6ba3-444b-b683-ddb7d4fd7d5f))
     (instances
       (project "ToffeeCam"
         (path "/fefc9b5a-abeb-41a5-a8aa-8c869e2548ae/94f74561-983d-417b-b08d-0500cda5d7e6"
