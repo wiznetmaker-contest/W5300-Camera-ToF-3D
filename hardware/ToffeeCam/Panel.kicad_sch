@@ -620,7 +620,7 @@
     (property "Reference" "D102" (at 95.25 95.25 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BZX84Cxx" (at 95.25 97.79 90)
+    (property "Value" "BZX84C12" (at 95.25 97.79 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 92.71 96.52 0)
