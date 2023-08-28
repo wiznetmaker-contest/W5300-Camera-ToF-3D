@@ -49,11 +49,11 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(Core/Inc TOF/App TOF/Target Drivers/BSP/custom Drivers/STM32U5xx_HAL_Driver/Inc Drivers/STM32U5xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32U5xx/Include Drivers/CMSIS/Include Drivers/BSP/Components/Common Drivers/BSP/53L7A1 Drivers/BSP/Components/vl53l7cx/modules Drivers/BSP/Components/vl53l7cx/porting Drivers/BSP/Components/vl53l7cx)
+include_directories(Core/Inc TOF/App TOF/Target Drivers/BSP/custom Drivers/STM32U5xx_HAL_Driver/Inc Drivers/STM32U5xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32U5xx/Include Drivers/CMSIS/Include Drivers/BSP/Components/Common Drivers/BSP/53L7A1 Drivers/BSP/Components/vl53l7cx/modules Drivers/BSP/Components/vl53l7cx/porting Drivers/BSP/Components/vl53l7cx Middlewares/Third_Party/FreeRTOS/Source/include/ Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/ Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/ Middlewares/Third_Party/CMSIS/RTOS2/Include/)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx)
 
-file(GLOB_RECURSE SOURCES "TOF/*.*" "Core/*.*" "Middlewares/*.*" "Drivers/*.*")
+file(GLOB_RECURSE SOURCES "TOF/*.*" "Core/*.*" "Middlewares/*.*" "Drivers/*.*" "RTOS2/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32U575ZITX_FLASH.ld)
 
