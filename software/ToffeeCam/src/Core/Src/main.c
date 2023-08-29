@@ -61,8 +61,6 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void SystemPower_Config(void);
-static void MPU_Initialize(void);
-static void MPU_Config(void);
 void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
 
@@ -70,7 +68,12 @@ void MX_FREERTOS_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+static int main(void);
+int cmain(void){
+    main();
+}
 
+static
 /* USER CODE END 0 */
 
 /**
@@ -87,9 +90,6 @@ int main(void)
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
-
-  /* MPU Configuration--------------------------------------------------------*/
-  MPU_Config();
 
   /* USER CODE BEGIN Init */
 
@@ -226,65 +226,25 @@ static void SystemPower_Config(void)
 
 /* USER CODE END 4 */
 
-/* MPU Configuration */
-
-void MPU_Config(void)
+/**
+  * @brief  Period elapsed callback in non blocking mode
+  * @note   This function is called  when TIM6 interrupt took place, inside
+  * HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment
+  * a global variable "uwTick" used as application time base.
+  * @param  htim : TIM handle
+  * @retval None
+  */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
-  MPU_Region_InitTypeDef MPU_InitStruct = {0};
-  MPU_Attributes_InitTypeDef MPU_AttributesInit = {0};
+  /* USER CODE BEGIN Callback 0 */
 
-  /* Disables the MPU */
-  HAL_MPU_Disable();
+  /* USER CODE END Callback 0 */
+  if (htim->Instance == TIM6) {
+    HAL_IncTick();
+  }
+  /* USER CODE BEGIN Callback 1 */
 
-  /** Initializes and configures the Region and the memory to be protected
-  */
-  MPU_InitStruct.Enable = MPU_REGION_ENABLE;
-  MPU_InitStruct.Number = MPU_REGION_NUMBER0;
-  MPU_InitStruct.BaseAddress = 0x08000000;
-  MPU_InitStruct.LimitAddress = 0x081FFFFF;
-  MPU_InitStruct.AttributesIndex = MPU_ATTRIBUTES_NUMBER0;
-  MPU_InitStruct.AccessPermission = MPU_REGION_PRIV_RO;
-  MPU_InitStruct.DisableExec = MPU_INSTRUCTION_ACCESS_ENABLE;
-  MPU_InitStruct.IsShareable = MPU_ACCESS_NOT_SHAREABLE;
-
-  HAL_MPU_ConfigRegion(&MPU_InitStruct);
-  MPU_AttributesInit.Number = MPU_REGION_NUMBER0;
-  MPU_AttributesInit.Attributes = MPU_DEVICE_nGnRnE | MPU_WRITE_THROUGH
-                              | MPU_TRANSIENT | MPU_R_ALLOCATE;
-
-  HAL_MPU_ConfigMemoryAttributes(&MPU_AttributesInit);
-
-  /** Initializes and configures the Region and the memory to be protected
-  */
-  MPU_InitStruct.Number = MPU_REGION_NUMBER1;
-  MPU_InitStruct.BaseAddress = 0x20000000;
-  MPU_InitStruct.LimitAddress = 0x200BFFFF;
-  MPU_InitStruct.AttributesIndex = MPU_ATTRIBUTES_NUMBER1;
-  MPU_InitStruct.AccessPermission = MPU_REGION_PRIV_RW;
-
-  HAL_MPU_ConfigRegion(&MPU_InitStruct);
-  MPU_AttributesInit.Number = MPU_REGION_NUMBER1;
-  MPU_AttributesInit.Attributes = MPU_DEVICE_nGnRnE | MPU_WRITE_BACK
-                              | MPU_TRANSIENT | MPU_RW_ALLOCATE;
-
-  HAL_MPU_ConfigMemoryAttributes(&MPU_AttributesInit);
-
-  /** Initializes and configures the Region and the memory to be protected
-  */
-  MPU_InitStruct.Number = MPU_REGION_NUMBER2;
-  MPU_InitStruct.BaseAddress = 0x60000000;
-  MPU_InitStruct.LimitAddress = 0x600003FF;
-  MPU_InitStruct.AttributesIndex = MPU_ATTRIBUTES_NUMBER2;
-  MPU_InitStruct.AccessPermission = MPU_REGION_ALL_RW;
-  MPU_InitStruct.DisableExec = MPU_INSTRUCTION_ACCESS_DISABLE;
-  MPU_InitStruct.IsShareable = MPU_ACCESS_OUTER_SHAREABLE;
-
-  HAL_MPU_ConfigRegion(&MPU_InitStruct);
-  MPU_AttributesInit.Number = MPU_REGION_NUMBER2;
-  HAL_MPU_ConfigMemoryAttributes(&MPU_AttributesInit);
-  /* Enables the MPU */
-  HAL_MPU_Enable(MPU_PRIVILEGED_DEFAULT);
-
+  /* USER CODE END Callback 1 */
 }
 
 /**
