@@ -72,3 +72,15 @@ add_custom_command(TARGET $${PROJECT_NAME}.elf POST_BUILD
         COMMAND $${CMAKE_OBJCOPY} -Obinary $<TARGET_FILE:$${PROJECT_NAME}.elf> $${BIN_FILE}
         COMMENT "Building $${HEX_FILE}
 Building $${BIN_FILE}")
+
+include_directories(wiznet)
+include_directories(wiznet_port)
+
+add_subdirectory(wiznet)
+target_link_libraries(${PROJECT_NAME}.elf PUBLIC wiznet_lib)
+
+add_subdirectory(wiznet_port)
+target_link_libraries(${PROJECT_NAME}.elf PUBLIC wiznet_port_lib)
+
+#add_subdirectory(toffeecam)
+#target_link_libraries(${PROJECT_NAME}.elf PUBLIC toffeecam_lib)

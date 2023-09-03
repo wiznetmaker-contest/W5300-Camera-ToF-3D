@@ -24,7 +24,7 @@
 #include "cmsis_os2.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "wiznet.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -53,6 +53,13 @@ const osThreadAttr_t defaultTask_attributes = {
   .priority = (osPriority_t) osPriorityNormal,
   .stack_size = 128 * 4
 };
+/* Definitions for wiznet_task */
+osThreadId_t wiznet_taskHandle;
+const osThreadAttr_t wiznet_task_attributes = {
+  .name = "wiznet_task",
+  .priority = (osPriority_t) osPriorityHigh,
+  .stack_size = 1024 * 4
+};
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -60,6 +67,7 @@ const osThreadAttr_t defaultTask_attributes = {
 /* USER CODE END FunctionPrototypes */
 
 void StartDefaultTask(void *argument);
+void wiznet_task_entry(void *argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -91,6 +99,9 @@ void MX_FREERTOS_Init(void) {
   /* creation of defaultTask */
   defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
 
+  /* creation of wiznet_task */
+  wiznet_taskHandle = osThreadNew(wiznet_task_entry, NULL, &wiznet_task_attributes);
+
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
@@ -116,6 +127,21 @@ void StartDefaultTask(void *argument)
     osDelay(1);
   }
   /* USER CODE END defaultTask */
+}
+
+/* USER CODE BEGIN Header_wiznet_task_entry */
+/**
+* @brief Function implementing the wiznet_task thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_wiznet_task_entry */
+void wiznet_task_entry(void *argument)
+{
+  /* USER CODE BEGIN wiznet_task */
+  /* Infinite loop */
+  wiznet_task(argument);
+  /* USER CODE END wiznet_task */
 }
 
 /* Private application code --------------------------------------------------*/
